@@ -1,0 +1,18 @@
+{
+  "id": "2026-08-12-github-langchain",
+  "title": "langchain-ai/langchain: Agent 工程平台",
+  "source": "github-trending",
+  "source_url": "https://github.com/langchain-ai/langchain",
+  "collected_at": "2026-08-12T00:00:00Z",
+  "summary": "业界标杆级 Agent 工程平台，以 LangGraph、LangSmith、DeepAgents 构建完整工具链，定义了 LLM Agent 开发的事实标准，生态极其丰富。",
+  "analysis": {
+    "tech_highlights": [
+      "DeepAgents 深度 Agent 编排框架",
+      "LangGraph + LangSmith 全链路工具链",
+      "多 LLM 与 RAG 原生集成"
+    ],
+    "relevance_score": 9
+  },
+  "tags": ["langchain", "agent-framework", "llm", "rag", "orchestration"],
+  "status": "reviewed"
+}

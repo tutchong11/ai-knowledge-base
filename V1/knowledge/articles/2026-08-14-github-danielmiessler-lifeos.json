@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-github-danielmiessler-lifeos",
+  "title": "danielmiessler/LifeOS",
+  "source": "github-trending",
+  "source_url": "https://github.com/danielmiessler/LifeOS",
+  "collected_at": "2026-08-14T12:00:00Z",
+  "summary": "通用『爬山式』AI harness，帮助用户从当前状态向理想状态持续演进。",
+  "analysis": {
+    "tech_highlights": ["『爬山式』持续演进框架", "将 AI 系统化应用于生活与工作目标", "通用 harness，不绑定单一场景"],
+    "relevance_score": 6
+  },
+  "tags": ["ai-harness", "personal-agent", "goal-planning"],
+  "status": "reviewed"
+}

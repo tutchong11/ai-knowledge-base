@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-hn-gemini-3-7-flash",
+  "title": "Gemini 3.7 Flash",
+  "source": "hacker-news",
+  "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "Google 发布 Gemini 3.7 Flash 模型，主打推理速度与智能的平衡，是 Gemini 系列最新 Flash 版本，引发大量讨论。",
+  "analysis": {
+    "tech_highlights": ["推理速度与智能平衡", "Gemini Flash 系列迭代", "前沿模型新版本发布"],
+    "relevance_score": 8
+  },
+  "tags": ["gemini", "llm", "google", "model-release"],
+  "status": "reviewed"
+}

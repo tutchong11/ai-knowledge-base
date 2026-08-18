@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-github-can1357-oh-my-pi",
+  "title": "can1357/oh-my-pi",
+  "source": "github-trending",
+  "source_url": "https://github.com/can1357/oh-my-pi",
+  "collected_at": "2026-08-14T12:00:00Z",
+  "summary": "终端 AI coding agent，支持 hash 锚定编辑、LSP、Python、浏览器与 subagent 能力。",
+  "analysis": {
+    "tech_highlights": ["hash 锚定编辑，提升代码定位可靠性", "LSP 集成，提供语言感知能力", "支持 Python、浏览器与 subagent 扩展"],
+    "relevance_score": 7
+  },
+  "tags": ["coding-agent", "terminal", "lsp", "subagent"],
+  "status": "reviewed"
+}

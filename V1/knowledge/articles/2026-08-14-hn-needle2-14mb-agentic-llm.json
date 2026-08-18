@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-hn-needle2-14mb-agentic-llm",
+  "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+  "source": "hacker-news",
+  "source_url": "https://cactuscompute.com/needle",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "Cactus 发布 Needle 2，14MB 端侧 agentic LLM，可在手机、穿戴设备、智能家居、机器人上运行，28MB 内存跑完整会话。",
+  "analysis": {
+    "tech_highlights": ["14MB 端侧 agentic LLM", "28MB 内存跑完整会话", "覆盖手机/穿戴/机器人场景"],
+    "relevance_score": 7
+  },
+  "tags": ["edge-ai", "llm", "on-device", "agentic", "embedded"],
+  "status": "reviewed"
+}

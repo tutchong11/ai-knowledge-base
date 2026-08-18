@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-hn-humanising-llm-outputs-is-dumb",
+  "title": "Humanising LLM Outputs Is Dumb",
+  "source": "hacker-news",
+  "source_url": "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "作者认为刻意「人性化」LLM 输出是徒劳的，主张接受 AI 生成文本的自然风格。",
+  "analysis": {
+    "tech_highlights": ["质疑刻意人性化输出", "主张接受 AI 自然风格", "写作风格观点"],
+    "relevance_score": 5
+  },
+  "tags": ["llm", "writing", "opinion", "ai-output"],
+  "status": "reviewed"
+}

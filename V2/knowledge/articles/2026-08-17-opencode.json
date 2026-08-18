@@ -1,0 +1,14 @@
+{
+  "id": "kb-2026-08-17-007",
+  "title": "opencode",
+  "source": "github-trending",
+  "source_id": "anomalyco/opencode",
+  "url": "https://github.com/anomalyco/opencode",
+  "summary": "开源编码 Agent（MIT 许可），TypeScript 实现，运行于终端，支持在编码工作流中调用多模型与工具，是 Claude Code/Codex 类工具的开源替代，本知识库项目即运行于该平台之上。对 AI 工程师价值在于：开源可审计的 Agent 核心，可研究其工具调用、会话管理与 skill 机制，并自行扩展定制。19.8 万星、本周活跃推送，代表开源编码 Agent 赛道的高热度。",
+  "tags": ["coding-agent", "open-source", "typescript", "cli", "agent-framework"],
+  "relevance_score": 0.9,
+  "collected_at": "2026-08-17T08:55:00Z",
+  "analyzed_at": "2026-08-17T09:30:00Z",
+  "organized_at": "2026-08-17T08:54:26Z",
+  "status": "published"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-github-addyosmani-agent-skills",
+  "title": "addyosmani/agent-skills",
+  "source": "github-trending",
+  "source_url": "https://github.com/addyosmani/agent-skills",
+  "collected_at": "2026-08-14T12:00:00Z",
+  "summary": "为 AI coding agent 提供生产级工程 skills，涵盖前端、性能、测试实践，助 Agent 产出高质量代码。",
+  "analysis": {
+    "tech_highlights": ["生产级工程 skills 集合，可直接复用", "覆盖前端、性能、测试等工程实践", "适配 Claude Code 等主流 coding agent"],
+    "relevance_score": 8
+  },
+  "tags": ["coding-agent", "skills", "engineering-practices", "claude-code"],
+  "status": "reviewed"
+}

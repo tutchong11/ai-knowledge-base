@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-github-paperclipai-paperclip",
+  "title": "paperclipai/paperclip",
+  "source": "github-trending",
+  "source_url": "https://github.com/paperclipai/paperclip",
+  "collected_at": "2026-08-14T12:00:00Z",
+  "summary": "开源工作场景 AI Agent 管理应用，统一调度、配置与管理团队各类 agent。",
+  "analysis": {
+    "tech_highlights": ["多 Agent 统一调度与配置", "面向团队工作场景的 Agent 管理", "推动 Agent 进入日常工作流"],
+    "relevance_score": 7
+  },
+  "tags": ["agent-management", "orchestration", "workflow", "team-collaboration"],
+  "status": "reviewed"
+}

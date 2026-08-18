@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-hn-benchmarked-local-llms-laptop",
+  "title": "I Benchmarked Local LLMs on the Laptop I Have",
+  "source": "hacker-news",
+  "source_url": "https://mamonas.dev/posts/local-llms-on-the-laptop-i-already-have/",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "作者在自己的笔记本上实测多个本地 LLM 的性能，分享实用的本地推理基准。",
+  "analysis": {
+    "tech_highlights": ["本地 LLM 实测基准", "笔记本硬件性能对比", "多模型横向评测"],
+    "relevance_score": 5
+  },
+  "tags": ["llm", "benchmark", "local", "hardware"],
+  "status": "reviewed"
+}

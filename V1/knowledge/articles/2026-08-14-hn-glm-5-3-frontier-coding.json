@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-hn-glm-5-3-frontier-coding",
+  "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
+  "source": "hacker-news",
+  "source_url": "https://z.ai/blog/glm-5.3",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "智谱发布 GLM-5.3 前沿编码模型，具备「涌现式」网络能力（cyber capabilities），面向编码与安全任务。",
+  "analysis": {
+    "tech_highlights": ["前沿编码能力", "涌现式网络/安全能力", "面向编码与安全任务"],
+    "relevance_score": 7
+  },
+  "tags": ["glm", "coding", "llm", "cybersecurity", "model-release"],
+  "status": "reviewed"
+}

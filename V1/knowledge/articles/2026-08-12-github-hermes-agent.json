@@ -1,0 +1,18 @@
+{
+  "id": "2026-08-12-github-hermes-agent",
+  "title": "NousResearch/hermes-agent: 与你共同成长的 AI Agent 框架",
+  "source": "github-trending",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "collected_at": "2026-08-12T00:00:00Z",
+  "summary": "NousResearch 推出的开源 AI Agent 框架，兼容 Claude Code、Codex、OpenClaw 等主流运行时，229K star 与 45K fork 彰显其在 Agent 工程领域的标杆地位。",
+  "analysis": {
+    "tech_highlights": [
+      "多运行时兼容架构（Claude Code / Codex / OpenClaw）",
+      "超大规模社区生态（45K+ fork）",
+      "模块化可扩展 Agent 设计"
+    ],
+    "relevance_score": 9
+  },
+  "tags": ["ai-agent", "agent-framework", "open-source", "llm", "orchestration"],
+  "status": "reviewed"
+}

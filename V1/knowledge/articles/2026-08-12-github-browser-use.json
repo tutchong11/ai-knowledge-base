@@ -1,0 +1,18 @@
+{
+  "id": "2026-08-12-github-browser-use",
+  "title": "browser-use/browser-use: 让 AI Agent 自动操作浏览器",
+  "source": "github-trending",
+  "source_url": "https://github.com/browser-use/browser-use",
+  "collected_at": "2026-08-12T00:00:00Z",
+  "summary": "基于 Playwright 的浏览器自动化框架，赋予 AI Agent 类人网页操作能力，可自动完成表单填写、信息抓取等在线任务，108K star 反映极高实用价值。",
+  "analysis": {
+    "tech_highlights": [
+      "Playwright 驱动的可靠浏览器自动化",
+      "AI Agent 原生网页感知与操作",
+      "人类行为模拟与复杂任务编排"
+    ],
+    "relevance_score": 8
+  },
+  "tags": ["browser-automation", "playwright", "ai-agent", "web-scraping", "python"],
+  "status": "reviewed"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-hn-tiny-llm-21000-tok-s-fpga",
+  "title": "Show HN: A tiny LLM running at 21,000 tok/s on a $250 FPGA (Live Demo)",
+  "source": "hacker-news",
+  "source_url": "https://www.mikeayles.com/blog/on-chip-llm-kv260/",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "在 250 美元 FPGA 上以 21,000 tok/s 运行小型 LLM 的演示，探索边缘低成本推理。",
+  "analysis": {
+    "tech_highlights": ["FPGA 低成本边缘推理", "21,000 tok/s 高吞吐", "250 美元硬件成本"],
+    "relevance_score": 6
+  },
+  "tags": ["fpga", "llm", "edge-ai", "inference", "hardware"],
+  "status": "reviewed"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-github-ragflow",
+  "title": "infiniflow/ragflow",
+  "source": "github-trending",
+  "source_url": "https://github.com/infiniflow/ragflow",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "领先的开源 RAG 引擎，将 RAG 与 Agent 能力结合，为 LLM 构建上下文层，支持多模态文档解析与知识库。",
+  "analysis": {
+    "tech_highlights": ["RAG 与 Agent 能力结合", "多模态文档解析", "LLM 上下文层构建"],
+    "relevance_score": 8
+  },
+  "tags": ["rag", "llm", "knowledge-base", "agent", "open-source"],
+  "status": "reviewed"
+}

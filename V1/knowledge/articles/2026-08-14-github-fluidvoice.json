@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-github-fluidvoice",
+  "title": "altic-dev/FluidVoice",
+  "source": "github-trending",
+  "source_url": "https://github.com/altic-dev/FluidVoice",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "最快的 macOS 本地听写应用，端侧 STT 与自定义训练 AI 增强模型，是 Wispr Flow 的本地替代方案。",
+  "analysis": {
+    "tech_highlights": ["端侧 STT 本地听写", "自定义训练 AI 增强模型", "Wispr Flow 本地替代"],
+    "relevance_score": 6
+  },
+  "tags": ["speech-to-text", "macos", "local", "dictation"],
+  "status": "reviewed"
+}

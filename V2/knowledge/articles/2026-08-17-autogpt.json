@@ -1,0 +1,14 @@
+{
+  "id": "kb-2026-08-17-009",
+  "title": "AutoGPT",
+  "source": "github-trending",
+  "source_id": "Significant-Gravitas/AutoGPT",
+  "url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "summary": "自主 Agent 平台的经典代表，Python 实现，愿景是让每个人都能构建和使用 AI Agent，提供任务规划、执行、记忆等基础能力，兼容 GPT、Claude、Llama 等模型。对 AI 工程师的价值：作为自主 Agent 架构的成熟参考，其组件化与插件化设计适合在其上做二次开发。2023 年创建至今仍保持活跃维护，18.6 万星，是理解 Agent 生态演进路径的关键样本。",
+  "tags": ["autonomous-agents", "python", "multi-llm", "agent-platform", "open-source"],
+  "relevance_score": 0.87,
+  "collected_at": "2026-08-17T08:55:00Z",
+  "analyzed_at": "2026-08-17T09:30:00Z",
+  "organized_at": "2026-08-17T08:54:26Z",
+  "status": "published"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-github-ace-step-ace-step-1-5",
+  "title": "ace-step/ACE-Step-1.5",
+  "source": "github-trending",
+  "source_url": "https://github.com/ace-step/ACE-Step-1.5",
+  "collected_at": "2026-08-14T12:00:00Z",
+  "summary": "本地音乐生成模型，性能超越多数商业方案，支持 Mac、AMD、Intel、CUDA 设备。",
+  "analysis": {
+    "tech_highlights": ["本地音乐生成，性能超越多数商业方案", "跨设备支持 Mac、AMD、Intel、CUDA", "开源音频生成领域的重要突破"],
+    "relevance_score": 7
+  },
+  "tags": ["music-generation", "audio", "local-model", "open-source"],
+  "status": "reviewed"
+}

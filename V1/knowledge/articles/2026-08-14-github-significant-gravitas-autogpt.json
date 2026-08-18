@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-github-significant-gravitas-autogpt",
+  "title": "Significant-Gravitas/AutoGPT",
+  "source": "github-trending",
+  "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "collected_at": "2026-08-14T12:00:00Z",
+  "summary": "通用 AI Agent 平台，提供可复用工具与框架，支持开发者构建和运行自主 Agent。",
+  "analysis": {
+    "tech_highlights": ["通用自主 Agent 平台，非单一场景工具", "提供可复用工具与框架，降低 Agent 开发门槛", "18.6 万 star，Agent 领域开源标杆"],
+    "relevance_score": 9
+  },
+  "tags": ["agent", "autonomous-agent", "ai-platform", "open-source"],
+  "status": "reviewed"
+}

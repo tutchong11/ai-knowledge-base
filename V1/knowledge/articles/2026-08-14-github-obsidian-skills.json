@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-github-obsidian-skills",
+  "title": "kepano/obsidian-skills",
+  "source": "github-trending",
+  "source_url": "https://github.com/kepano/obsidian-skills",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "为 Obsidian 打造的 Agent 技能集，教会 agent 使用 Obsidian CLI 及 Markdown、Bases、JSON Canvas 等开放格式。",
+  "analysis": {
+    "tech_highlights": ["Obsidian CLI 集成", "开放格式（Markdown/JSON Canvas）支持", "知识管理工具 agent 化"],
+    "relevance_score": 6
+  },
+  "tags": ["obsidian", "agent", "skills", "knowledge-management"],
+  "status": "reviewed"
+}

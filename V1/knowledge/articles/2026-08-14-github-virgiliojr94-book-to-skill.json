@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-github-virgiliojr94-book-to-skill",
+  "title": "virgiliojr94/book-to-skill",
+  "source": "github-trending",
+  "source_url": "https://github.com/virgiliojr94/book-to-skill",
+  "collected_at": "2026-08-14T12:00:00Z",
+  "summary": "将技术书籍 PDF 一键转化为 Claude Code skill，把书本知识沉淀为 Agent 可执行能力。",
+  "analysis": {
+    "tech_highlights": ["PDF 一键转化为 skill", "编码时可直接查阅引用书本知识", "知识工程化的实用工具"],
+    "relevance_score": 7
+  },
+  "tags": ["knowledge-engineering", "skill-generation", "pdf", "claude-code"],
+  "status": "reviewed"
+}

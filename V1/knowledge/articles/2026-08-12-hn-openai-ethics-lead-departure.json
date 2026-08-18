@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-12-hn-openai-ethics-lead-departure",
+  "title": "OpenAI 伦理负责人入职不到一年即离职",
+  "source": "hacker-news",
+  "source_url": "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0",
+  "collected_at": "2026-08-12T00:00:00Z",
+  "summary": "OpenAI 伦理主管 Chloe Bakalar 入职不足一年即离职，引发对 AI 公司内部伦理治理有效性的广泛质疑，折射商业化与安全责任的深层矛盾。",
+  "analysis": {
+    "tech_highlights": [
+      "AI 伦理治理机制在商业公司中的有效性存疑",
+      "大模型企业安全与商业化的结构性张力"
+    ],
+    "relevance_score": 5
+  },
+  "tags": ["ai-ethics", "openai", "governance", "industry-news"],
+  "status": "reviewed"
+}

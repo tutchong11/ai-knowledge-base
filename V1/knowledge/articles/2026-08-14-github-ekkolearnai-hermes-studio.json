@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-github-ekkolearnai-hermes-studio",
+  "title": "EKKOLearnAI/hermes-studio",
+  "source": "github-trending",
+  "source_url": "https://github.com/EKKOLearnAI/hermes-studio",
+  "collected_at": "2026-08-14T12:00:00Z",
+  "summary": "Hermes Agent 的 Web 仪表盘，提供多平台 AI 对话、会话管理、定时任务与用量分析。",
+  "analysis": {
+    "tech_highlights": ["多平台 AI 对话统一入口", "会话管理、定时任务调度", "用量分析，增强 Agent 可观测性"],
+    "relevance_score": 6
+  },
+  "tags": ["agent-dashboard", "observability", "scheduling"],
+  "status": "reviewed"
+}

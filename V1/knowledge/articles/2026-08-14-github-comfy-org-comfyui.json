@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-github-comfy-org-comfyui",
+  "title": "Comfy-Org/ComfyUI",
+  "source": "github-trending",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI",
+  "collected_at": "2026-08-14T12:00:00Z",
+  "summary": "模块化 diffusion model GUI/API/后端，采用 graph/nodes 节点式工作流，是生成式图像生态核心。",
+  "analysis": {
+    "tech_highlights": ["graph/nodes 节点式工作流，可视化可复现", "同时提供 GUI、API、后端三层能力", "Stable Diffusion 等生成式图像生态核心工具"],
+    "relevance_score": 9
+  },
+  "tags": ["diffusion-model", "stable-diffusion", "image-generation", "node-graph"],
+  "status": "reviewed"
+}

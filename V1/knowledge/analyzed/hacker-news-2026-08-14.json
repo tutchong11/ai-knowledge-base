@@ -1,0 +1,236 @@
+[
+  {
+    "title": "Gemini 3.7 Flash",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+    "source": "hacker-news",
+    "popularity": { "metric": "points", "value": 839 },
+    "summary": "Google 发布 Gemini 3.7 Flash 模型，主打推理速度与智能的平衡，是 Gemini 系列最新 Flash 版本，引发大量讨论。",
+    "analysis": {
+      "tech_highlights": ["推理速度与智能平衡", "Gemini Flash 系列迭代", "前沿模型新版本发布"],
+      "relevance_score": 8,
+      "score_reason": "主流前沿模型新版本，可直接用于生产推理，值得关注"
+    },
+    "tags": ["gemini", "llm", "google", "model-release"]
+  },
+  {
+    "title": "How I use LLMs to learn complex topics",
+    "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
+    "source": "hacker-news",
+    "popularity": { "metric": "points", "value": 823 },
+    "summary": "作者分享用 LLM 学习复杂技术主题的方法论，讨论个性化学习与苏格拉底式提问。",
+    "analysis": {
+      "tech_highlights": ["个性化学习方法论", "苏格拉底式提问技巧", "LLM 辅助复杂主题学习"],
+      "relevance_score": 6,
+      "score_reason": "学习方法论文章，有参考价值但非技术突破"
+    },
+    "tags": ["llm", "learning", "methodology", "education"]
+  },
+  {
+    "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+    "url": "https://stolen-thoughts.com/",
+    "source": "hacker-news",
+    "popularity": { "metric": "points", "value": 694 },
+    "summary": "研究展示如何从闭源 LLM API 窃取推理轨迹（reasoning trace），涉及模型蒸馏与知识产权安全问题。",
+    "analysis": {
+      "tech_highlights": ["闭源 API 推理轨迹窃取", "模型蒸馏与 IP 安全风险", "揭示闭源模型防护弱点"],
+      "relevance_score": 8,
+      "score_reason": "揭示闭源 LLM 安全/知识产权风险，对行业有重要警示意义"
+    },
+    "tags": ["llm", "security", "reasoning", "distillation", "api"]
+  },
+  {
+    "title": "DeepSeek Harness developer preview",
+    "url": "https://deepseek.com/harness/en/",
+    "source": "hacker-news",
+    "popularity": { "metric": "points", "value": 662 },
+    "summary": "DeepSeek 发布 Harness 开发者预览，提供开源评估与推理框架，配套 GitHub 仓库与快速入门文档。",
+    "analysis": {
+      "tech_highlights": ["开源评估与推理框架", "开发者预览版本", "配套文档与快速入门"],
+      "relevance_score": 7,
+      "score_reason": "开源评估推理框架，可立即用于模型评测与部署"
+    },
+    "tags": ["deepseek", "inference", "evaluation", "framework", "open-source"]
+  },
+  {
+    "title": "Accelerating GPT-5.6 Sol Ultrafast",
+    "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+    "source": "hacker-news",
+    "popularity": { "metric": "points", "value": 602 },
+    "summary": "Cerebras 与 OpenAI 合作加速 GPT-5.6 Sol 推理，展示超高速推理硬件的性能表现。",
+    "analysis": {
+      "tech_highlights": ["Cerebras 超高速推理硬件", "GPT-5.6 Sol 加速", "软硬件协同优化"],
+      "relevance_score": 7,
+      "score_reason": "推理硬件加速有实际价值，展示软硬件协同新进展"
+    },
+    "tags": ["inference", "hardware", "openai", "cerebras", "performance"]
+  },
+  {
+    "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+    "url": "https://cactuscompute.com/needle",
+    "source": "hacker-news",
+    "popularity": { "metric": "points", "value": 527 },
+    "summary": "Cactus 发布 Needle 2，14MB 端侧 agentic LLM，可在手机、穿戴设备、智能家居、机器人上运行，28MB 内存跑完整会话。",
+    "analysis": {
+      "tech_highlights": ["14MB 端侧 agentic LLM", "28MB 内存跑完整会话", "覆盖手机/穿戴/机器人场景"],
+      "relevance_score": 7,
+      "score_reason": "端侧小模型 agentic 能力有落地价值，边缘 AI 趋势代表"
+    },
+    "tags": ["edge-ai", "llm", "on-device", "agentic", "embedded"]
+  },
+  {
+    "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
+    "url": "https://z.ai/blog/glm-5.3",
+    "source": "hacker-news",
+    "popularity": { "metric": "points", "value": 466 },
+    "summary": "智谱发布 GLM-5.3 前沿编码模型，具备「涌现式」网络能力（cyber capabilities），面向编码与安全任务。",
+    "analysis": {
+      "tech_highlights": ["前沿编码能力", "涌现式网络/安全能力", "面向编码与安全任务"],
+      "relevance_score": 7,
+      "score_reason": "国产前沿编码模型迭代，编码与安全能力有实际价值"
+    },
+    "tags": ["glm", "coding", "llm", "cybersecurity", "model-release"]
+  },
+  {
+    "title": "Apple Silicon and macOS VMs: Faster LLM Inference with llama.cpp",
+    "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+    "source": "hacker-news",
+    "popularity": { "metric": "points", "value": 305 },
+    "summary": "在 Apple Silicon 与 macOS 虚拟机中通过 GPU 直通加速 llama.cpp LLM 推理的实践指南。",
+    "analysis": {
+      "tech_highlights": ["GPU 直通加速推理", "Apple Silicon/macOS VM 实践", "llama.cpp 推理优化"],
+      "relevance_score": 6,
+      "score_reason": "特定硬件场景实践指南，对 Apple Silicon 用户有价值"
+    },
+    "tags": ["apple-silicon", "llama.cpp", "llm", "inference", "gpu-passthrough"]
+  },
+  {
+    "title": "What sort of maths are LLMs good at?",
+    "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
+    "source": "hacker-news",
+    "popularity": { "metric": "points", "value": 259 },
+    "summary": "数学家 Gowers 讨论 LLM 擅长哪些数学问题，探讨 LLM 的数学推理能力与边界。",
+    "analysis": {
+      "tech_highlights": ["LLM 数学能力边界分析", "菲尔兹奖得主观点", "数学推理能力探讨"],
+      "relevance_score": 5,
+      "score_reason": "权威视角的能力边界讨论，有启发性但信息密度中等"
+    },
+    "tags": ["llm", "math", "reasoning", "capability"]
+  },
+  {
+    "title": "Humanising LLM Outputs Is Dumb",
+    "url": "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb",
+    "source": "hacker-news",
+    "popularity": { "metric": "points", "value": 228 },
+    "summary": "作者认为刻意「人性化」LLM 输出是徒劳的，主张接受 AI 生成文本的自然风格。",
+    "analysis": {
+      "tech_highlights": ["质疑刻意人性化输出", "主张接受 AI 自然风格", "写作风格观点"],
+      "relevance_score": 5,
+      "score_reason": "观点性文章，有讨论价值但无技术内容"
+    },
+    "tags": ["llm", "writing", "opinion", "ai-output"]
+  },
+  {
+    "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System",
+    "url": "https://www.aleksagordic.com/blog/vllm",
+    "source": "hacker-news",
+    "popularity": { "metric": "points", "value": 151 },
+    "summary": "深入剖析 vLLM 高吞吐 LLM 推理系统的架构，讲解 PagedAttention 等核心优化技术。",
+    "analysis": {
+      "tech_highlights": ["vLLM 系统架构剖析", "PagedAttention 核心优化", "高吞吐推理技术"],
+      "relevance_score": 7,
+      "score_reason": "推理系统深度技术解析，对推理工程实践有直接帮助"
+    },
+    "tags": ["vllm", "inference", "llm", "architecture", "performance"]
+  },
+  {
+    "title": "How Organizations Use AI: Evidence from ChatGPT [pdf]",
+    "url": "https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf",
+    "source": "hacker-news",
+    "popularity": { "metric": "points", "value": 109 },
+    "summary": "OpenAI 发布的报告，基于 ChatGPT 数据研究组织如何使用 AI 的实证证据。",
+    "analysis": {
+      "tech_highlights": ["基于真实数据的实证研究", "组织 AI 使用模式分析", "ChatGPT 使用证据"],
+      "relevance_score": 5,
+      "score_reason": "实证研究报告，有参考价值但偏宏观"
+    },
+    "tags": ["ai", "research", "chatgpt", "enterprise"]
+  },
+  {
+    "title": "Show HN: A tiny LLM running at 21,000 tok/s on a $250 FPGA (Live Demo)",
+    "url": "https://www.mikeayles.com/blog/on-chip-llm-kv260/",
+    "source": "hacker-news",
+    "popularity": { "metric": "points", "value": 79 },
+    "summary": "在 250 美元 FPGA 上以 21,000 tok/s 运行小型 LLM 的演示，探索边缘低成本推理。",
+    "analysis": {
+      "tech_highlights": ["FPGA 低成本边缘推理", "21,000 tok/s 高吞吐", "250 美元硬件成本"],
+      "relevance_score": 6,
+      "score_reason": "边缘低成本推理探索，有技术亮点但应用场景待验证"
+    },
+    "tags": ["fpga", "llm", "edge-ai", "inference", "hardware"]
+  },
+  {
+    "title": "I won't read LLM authored fiction",
+    "url": "https://mccormick.cx/news/entries/why-i-won-t-read-llm-authored-fiction",
+    "source": "hacker-news",
+    "popularity": { "metric": "points", "value": 72 },
+    "summary": "作者声明不阅读 LLM 生成的小说，探讨 AI 创作与人类阅读的关系。",
+    "analysis": {
+      "tech_highlights": ["AI 创作与人类阅读关系", "拒绝 AI 小说立场", "创作伦理讨论"],
+      "relevance_score": 4,
+      "score_reason": "个人观点文章，信息量低，可略过"
+    },
+    "tags": ["ai", "fiction", "opinion", "writing"]
+  },
+  {
+    "title": "I Benchmarked Local LLMs on the Laptop I Have",
+    "url": "https://mamonas.dev/posts/local-llms-on-the-laptop-i-already-have/",
+    "source": "hacker-news",
+    "popularity": { "metric": "points", "value": 20 },
+    "summary": "作者在自己的笔记本上实测多个本地 LLM 的性能，分享实用的本地推理基准。",
+    "analysis": {
+      "tech_highlights": ["本地 LLM 实测基准", "笔记本硬件性能对比", "多模型横向评测"],
+      "relevance_score": 5,
+      "score_reason": "本地推理实测，有参考价值但硬件特定"
+    },
+    "tags": ["llm", "benchmark", "local", "hardware"]
+  },
+  {
+    "title": "Connecticut judge says plaintiff hid messages for AI in court filings",
+    "url": "https://www.reuters.com/legal/litigation/connecticut-judge-says-plaintiff-hid-messages-ai-court-filings-2026-08-13/",
+    "source": "hacker-news",
+    "popularity": { "metric": "points", "value": 9 },
+    "summary": "康涅狄格州法官裁定原告在法庭文件中隐瞒 AI 相关消息，涉及 AI 使用与司法披露。",
+    "analysis": {
+      "tech_highlights": ["AI 使用司法披露", "法律文件隐瞒裁决", "AI 合规监管案例"],
+      "relevance_score": 5,
+      "score_reason": "法律合规案例，对 AI 治理有参考意义但偏新闻"
+    },
+    "tags": ["ai", "legal", "compliance", "regulation"]
+  },
+  {
+    "title": "Mistral is serving GLM 5.2",
+    "url": "https://docs.mistral.ai/models/zai-glm-5-2",
+    "source": "hacker-news",
+    "popularity": { "metric": "points", "value": 3 },
+    "summary": "Mistral 平台开始提供智谱 GLM 5.2 模型服务，跨平台模型分发的新动向。",
+    "analysis": {
+      "tech_highlights": ["跨平台模型分发", "GLM 5.2 接入 Mistral", "模型生态互通"],
+      "relevance_score": 5,
+      "score_reason": "模型分发动态，信息量低但反映生态趋势"
+    },
+    "tags": ["mistral", "glm", "llm", "model-serving"]
+  },
+  {
+    "title": "The web's newest weapon against AI scrapers is a font",
+    "url": "https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/",
+    "source": "hacker-news",
+    "popularity": { "metric": "points", "value": 3 },
+    "summary": "ArsTechnica 报道一种新字体可将网页内容对 AI 爬虫「加密」，成为反抓取的新手段。",
+    "analysis": {
+      "tech_highlights": ["字体对抗 AI 爬虫", "网页内容混淆", "反抓取新手段"],
+      "relevance_score": 5,
+      "score_reason": "反爬虫有趣思路，实用性与合规性待核实"
+    },
+    "tags": ["ai-scraping", "font", "security", "web"]
+  }
+]

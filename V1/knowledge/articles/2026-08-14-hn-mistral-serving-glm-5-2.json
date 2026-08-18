@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-hn-mistral-serving-glm-5-2",
+  "title": "Mistral is serving GLM 5.2",
+  "source": "hacker-news",
+  "source_url": "https://docs.mistral.ai/models/zai-glm-5-2",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "Mistral 平台开始提供智谱 GLM 5.2 模型服务，跨平台模型分发的新动向。",
+  "analysis": {
+    "tech_highlights": ["跨平台模型分发", "GLM 5.2 接入 Mistral", "模型生态互通"],
+    "relevance_score": 5
+  },
+  "tags": ["mistral", "glm", "llm", "model-serving"],
+  "status": "reviewed"
+}

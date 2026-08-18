@@ -1,0 +1,18 @@
+{
+  "id": "2026-08-12-github-langflow",
+  "title": "langflow-ai/langflow: AI Agent 与工作流可视化构建平台",
+  "source": "github-trending",
+  "source_url": "https://github.com/langflow-ai/langflow",
+  "collected_at": "2026-08-12T00:00:00Z",
+  "summary": "基于 React Flow 的低代码 AI Agent 工作流平台，拖拽式编排多 Agent 协作管线，大幅降低 AI 应用开发门槛，便于快速原型验证与迭代。",
+  "analysis": {
+    "tech_highlights": [
+      "React Flow 可视化拖拽式工作流编排",
+      "多 Agent 协作管线原生支持",
+      "低代码/无代码降低 AI 开发门槛"
+    ],
+    "relevance_score": 8
+  },
+  "tags": ["low-code", "ai-agent", "workflow", "visual-programming", "python"],
+  "status": "reviewed"
+}

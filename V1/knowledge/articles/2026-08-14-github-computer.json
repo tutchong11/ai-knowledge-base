@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-github-computer",
+  "title": "cloudflare/computer",
+  "source": "github-trending",
+  "source_url": "https://github.com/cloudflare/computer",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "Cloudflare 推出的「给 Agent 一台电脑」项目，为 AI agent 提供浏览器/计算机操作能力的基础设施。",
+  "analysis": {
+    "tech_highlights": ["为 agent 提供计算机操作能力", "浏览器操作基础设施", "Cloudflare 基础设施支撑"],
+    "relevance_score": 7
+  },
+  "tags": ["agent", "cloudflare", "computer-use", "infrastructure"],
+  "status": "reviewed"
+}

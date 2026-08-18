@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-hn-i-wont-read-llm-authored-fiction",
+  "title": "I won't read LLM authored fiction",
+  "source": "hacker-news",
+  "source_url": "https://mccormick.cx/news/entries/why-i-won-t-read-llm-authored-fiction",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "作者声明不阅读 LLM 生成的小说，探讨 AI 创作与人类阅读的关系。",
+  "analysis": {
+    "tech_highlights": ["AI 创作与人类阅读关系", "拒绝 AI 小说立场", "创作伦理讨论"],
+    "relevance_score": 4
+  },
+  "tags": ["ai", "fiction", "opinion", "writing"],
+  "status": "draft"
+}

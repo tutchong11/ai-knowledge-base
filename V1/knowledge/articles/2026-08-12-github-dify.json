@@ -1,0 +1,18 @@
+{
+  "id": "2026-08-12-github-dify",
+  "title": "langgenius/dify: Agentic 工作流与 RAG 管线构建平台",
+  "source": "github-trending",
+  "source_url": "https://github.com/langgenius/dify",
+  "collected_at": "2026-08-12T00:00:00Z",
+  "summary": "一站式平台整合 Agentic 工作流与 RAG 管线，支持从原型到生产的无缝过渡，团队无需重建技术栈即可将 AI 应用推向生产环境。",
+  "analysis": {
+    "tech_highlights": [
+      "Agentic 工作流引擎与 RAG 管线深度整合",
+      "云端/私有化灵活部署方案",
+      "从原型到生产的一体化体验"
+    ],
+    "relevance_score": 8
+  },
+  "tags": ["agentic-workflow", "rag", "ai-platform", "production-ready", "self-hosted"],
+  "status": "reviewed"
+}

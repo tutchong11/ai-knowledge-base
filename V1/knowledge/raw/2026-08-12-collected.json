@@ -1,0 +1,162 @@
+[
+  {
+    "title": "NousResearch/hermes-agent: 与你共同成长的 AI Agent 框架",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "source": "github-trending",
+    "popularity": {
+      "metric": "stars",
+      "value": 229253
+    },
+    "summary": "NousResearch 推出的开源 AI Agent 框架，支持 Claude Code、Codex、OpenClaw 等主流 Agent 运行时，拥有超过 45K fork，是当前最热门的 Agent 工程平台之一。"
+  },
+  {
+    "title": "langflow-ai/langflow: AI Agent 与工作流可视化构建平台",
+    "url": "https://github.com/langflow-ai/langflow",
+    "source": "github-trending",
+    "popularity": {
+      "metric": "stars",
+      "value": 153077
+    },
+    "summary": "Langflow 是一个强大的低代码平台，用于构建和部署 AI Agent 及工作流，支持多 Agent 协作和 React Flow 可视化编排，Python 生态。"
+  },
+  {
+    "title": "langgenius/dify: Agentic 工作流与 RAG 管线构建平台",
+    "url": "https://github.com/langgenius/dify",
+    "source": "github-trending",
+    "popularity": {
+      "metric": "stars",
+      "value": 152175
+    },
+    "summary": "Dify 是一站式 Agentic 工作流和 RAG 管线平台，支持云端/私有化部署，团队可从原型直接推进到生产环境，无需重建技术栈。"
+  },
+  {
+    "title": "langchain-ai/langchain: Agent 工程平台",
+    "url": "https://github.com/langchain-ai/langchain",
+    "source": "github-trending",
+    "popularity": {
+      "metric": "stars",
+      "value": 144051
+    },
+    "summary": "LangChain 是业界领先的 Agent 工程平台，支持 LLM、多 Agent 协作、RAG、DeepAgents 等，生态涵盖 LangGraph、LangSmith 等工具链。"
+  },
+  {
+    "title": "Shubhamsaboo/awesome-llm-apps: 100+ AI Agent 与 RAG 应用合集",
+    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "source": "github-trending",
+    "popularity": {
+      "metric": "stars",
+      "value": 132241
+    },
+    "summary": "收录 100+ 免费开源的 AI Agent、Agent Skills 和 RAG 应用，涵盖多种 LLM 场景，是学习和参考 AI Agent 开发的优质资源库。"
+  },
+  {
+    "title": "browser-use/browser-use: 让 AI Agent 自动操作浏览器",
+    "url": "https://github.com/browser-use/browser-use",
+    "source": "github-trending",
+    "popularity": {
+      "metric": "stars",
+      "value": 108888
+    },
+    "summary": "browser-use 使网站对 AI Agent 可访问，基于 Playwright 实现浏览器自动化，让 AI Agent 能像人类一样完成在线任务，Python 生态。"
+  },
+  {
+    "title": "google-gemini/gemini-cli: Google 开源的终端 AI Agent",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "source": "github-trending",
+    "popularity": {
+      "metric": "stars",
+      "value": 106480
+    },
+    "summary": "Google 官方开源的 AI Agent，将 Gemini 大模型能力直接带入终端，支持 MCP 客户端/服务器协议，可进行代码辅助和自动化操作。"
+  },
+  {
+    "title": "karpathy/autoresearch: AI Agent 自动化单 GPU 训练研究",
+    "url": "https://github.com/karpathy/autoresearch",
+    "source": "github-trending",
+    "popularity": {
+      "metric": "stars",
+      "value": 93702
+    },
+    "summary": "Andrej Karpathy 的项目，使用 AI Agent 在单 GPU 上自动运行 nanochat 训练研究，探索 AI 自动化 AI 研究的可能性，极具前瞻性。"
+  },
+  {
+    "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+    "url": "https://stolen-thoughts.com/",
+    "source": "hacker-news",
+    "popularity": {
+      "metric": "points",
+      "value": 610
+    },
+    "summary": "一项研究揭示如何从闭源 LLM API 中窃取推理轨迹（reasoning traces），引发对 LLM API 安全性和隐私保护的广泛讨论，274 条评论。"
+  },
+  {
+    "title": "Compression is prediction（压缩即预测）",
+    "url": "https://ngrok.com/blog/compression-is-prediction",
+    "source": "hacker-news",
+    "popularity": {
+      "metric": "points",
+      "value": 493
+    },
+    "summary": "ngrok 发布的深度技术文章，阐述压缩与预测在信息论和机器学习中的本质联系，对理解 LLM 工作原理有重要启发，207 条评论。"
+  },
+  {
+    "title": "OpenAI 伦理负责人入职不到一年即离职",
+    "url": "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0",
+    "source": "hacker-news",
+    "popularity": {
+      "metric": "points",
+      "value": 415
+    },
+    "summary": "OpenAI 伦理主管 Chloe Bakalar 入职不到一年便离职，引发社区对 AI 公司内部伦理治理机制的质疑和讨论，410 条评论。"
+  },
+  {
+    "title": "Mojo 1.0 正式发布",
+    "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+    "source": "hacker-news",
+    "popularity": {
+      "metric": "points",
+      "value": 375
+    },
+    "summary": "Modular 正式发布 Mojo 1.0，专为 AI 开发设计的高性能编程语言，兼具 Python 易用性和 C 级别性能，184 条评论。"
+  },
+  {
+    "title": "Go 是 AI 辅助软件工程的理想语言",
+    "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
+    "source": "hacker-news",
+    "popularity": {
+      "metric": "points",
+      "value": 360
+    },
+    "summary": "Google 官方博客阐述 Go 语言在 AI 辅助软件工程中的优势：简洁语法、强类型、快速编译等特性使其成为 AI 编码 Agent 的理想目标语言。"
+  },
+  {
+    "title": "Grok Bot — xAI 发布聊天机器人",
+    "url": "https://x.ai/bot",
+    "source": "hacker-news",
+    "popularity": {
+      "metric": "points",
+      "value": 268
+    },
+    "summary": "xAI（马斯克的 AI 公司）发布 Grok Bot，引发社区对其能力、定位和与竞品（ChatGPT、Claude）对比的广泛讨论，222 条评论。"
+  },
+  {
+    "title": "Nvidia Nemotron 3.5 Lightning 与 NeMo Switchyard 发布",
+    "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+    "source": "hacker-news",
+    "popularity": {
+      "metric": "points",
+      "value": 223
+    },
+    "summary": "Nvidia 发布 Nemotron 3.5 Lightning 模型和 NeMo Switchyard 架构，支持 RTX/DGX 平台的 AI Agent 部署和模型路由，114 条评论。"
+  },
+  {
+    "title": "WorldClaw: Agentic 3D 开放世界大规模生成",
+    "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
+    "source": "hacker-news",
+    "popularity": {
+      "metric": "points",
+      "value": 215
+    },
+    "summary": "腾讯混元团队发布 WorldClaw，基于 Agentic 方法实现大规模 3D 开放世界自动生成，展示了 AI Agent 在游戏/仿真领域的应用潜力。"
+  }
+]

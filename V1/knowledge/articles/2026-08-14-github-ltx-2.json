@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-github-ltx-2",
+  "title": "Lightricks/LTX-2",
+  "source": "github-trending",
+  "source_url": "https://github.com/Lightricks/LTX-2",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "LTX-2 音视频生成模型的官方 Python 推理与 LoRA 训练包，Lightricks 开源的多模态生成模型。",
+  "analysis": {
+    "tech_highlights": ["音视频多模态生成", "官方推理与 LoRA 训练包", "开源多模态生成模型"],
+    "relevance_score": 7
+  },
+  "tags": ["video-generation", "multimodal", "lora", "diffusion"],
+  "status": "reviewed"
+}

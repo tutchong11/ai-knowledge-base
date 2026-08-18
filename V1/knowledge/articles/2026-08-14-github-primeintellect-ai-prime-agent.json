@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-github-primeintellect-ai-prime-agent",
+  "title": "PrimeIntellect-ai/prime-agent",
+  "source": "github-trending",
+  "source_url": "https://github.com/PrimeIntellect-ai/prime-agent",
+  "collected_at": "2026-08-14T12:00:00Z",
+  "summary": "面向编码工作流与长时自主任务的 self-improving RLM agent，RL + Agent 方向增长最快的新星。",
+  "analysis": {
+    "tech_highlights": ["self-improving（自改进）能力", "RLM（Reinforcement Learning + LLM）技术路线", "面向长时自主任务，本周新增约 1.2 万 star"],
+    "relevance_score": 8
+  },
+  "tags": ["reinforcement-learning", "self-improving", "agent", "coding"],
+  "status": "reviewed"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "2026-08-12-hn-nvidia-nemotron-switchyard",
+  "title": "Nvidia Nemotron 3.5 Lightning 与 NeMo Switchyard 发布",
+  "source": "hacker-news",
+  "source_url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+  "collected_at": "2026-08-12T00:00:00Z",
+  "summary": "Nvidia 发布 Nemotron 3.5 Lightning 模型与 NeMo Switchyard 架构，专为 RTX/DGX 平台优化 AI Agent 推理部署，实现高效模型路由与资源调度。",
+  "analysis": {
+    "tech_highlights": [
+      "NeMo Switchyard 智能模型路由架构",
+      "RTX/DGX 硬件平台深度优化",
+      "面向 AI Agent 的低延迟推理部署"
+    ],
+    "relevance_score": 7
+  },
+  "tags": ["nvidia", "nemotron", "inference", "agent-deployment", "rtx"],
+  "status": "reviewed"
+}

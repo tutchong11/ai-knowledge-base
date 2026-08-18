@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-github-anthropics-skills",
+  "title": "anthropics/skills",
+  "source": "github-trending",
+  "source_url": "https://github.com/anthropics/skills",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "Anthropic 官方 Agent Skills 公共仓库，收录可复用 Agent 技能定义，供 Claude 系列 Agent 直接调用，是 Agent Skills 生态的事实标准。",
+  "analysis": {
+    "tech_highlights": ["Agent Skills 生态事实标准", "官方可复用技能集，供 Claude 直接调用", "推动 Agent 能力模块化复用范式"],
+    "relevance_score": 9
+  },
+  "tags": ["agent", "skills", "claude", "anthropic", "open-source"],
+  "status": "reviewed"
+}

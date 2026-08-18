@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-github-agency-agents",
+  "title": "msitarzewski/agency-agents",
+  "source": "github-trending",
+  "source_url": "https://github.com/msitarzewski/agency-agents",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "一套完整 AI 数字代理机构，覆盖前端开发、Reddit 运营、内容注入、事实核查等角色，每个 agent 具备个性、流程与可交付成果。",
+  "analysis": {
+    "tech_highlights": ["多角色 agent 协作机构", "覆盖前端/运营/事实核查等完整流程", "每个 agent 具备个性与可交付成果"],
+    "relevance_score": 6
+  },
+  "tags": ["agent", "automation", "multi-agent", "agency"],
+  "status": "reviewed"
+}

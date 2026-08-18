@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-hn-inside-vllm-anatomy",
+  "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System",
+  "source": "hacker-news",
+  "source_url": "https://www.aleksagordic.com/blog/vllm",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "深入剖析 vLLM 高吞吐 LLM 推理系统的架构，讲解 PagedAttention 等核心优化技术。",
+  "analysis": {
+    "tech_highlights": ["vLLM 系统架构剖析", "PagedAttention 核心优化", "高吞吐推理技术"],
+    "relevance_score": 7
+  },
+  "tags": ["vllm", "inference", "llm", "architecture", "performance"],
+  "status": "reviewed"
+}

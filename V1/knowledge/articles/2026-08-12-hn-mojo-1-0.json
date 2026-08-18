@@ -1,0 +1,18 @@
+{
+  "id": "2026-08-12-hn-mojo-1-0",
+  "title": "Mojo 1.0 正式发布",
+  "source": "hacker-news",
+  "source_url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+  "collected_at": "2026-08-12T00:00:00Z",
+  "summary": "Modular 正式发布 Mojo 1.0——专为 AI 开发设计的高性能编程语言，融合 Python 级易用性与 C 级执行效率，有望重塑 AI 系统编程的底层生态。",
+  "analysis": {
+    "tech_highlights": [
+      "Python 语法 + C/C++ 级性能的融合设计",
+      "AI 工作负载专用的编译器优化",
+      "与 Python 生态无缝互操作"
+    ],
+    "relevance_score": 8
+  },
+  "tags": ["mojo", "programming-language", "ai-development", "performance", "modular"],
+  "status": "reviewed"
+}

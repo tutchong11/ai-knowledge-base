@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-github-diagram-design",
+  "title": "cathrynlavery/diagram-design",
+  "source": "github-trending",
+  "source_url": "https://github.com/cathrynlavery/diagram-design",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "29 种适用于 Claude Code 的编辑类图表模板，自包含 HTML+SVG，无阴影、无 Mermaid 冗余，用于快速生成专业图表。",
+  "analysis": {
+    "tech_highlights": ["29 种编辑类图表模板", "自包含 HTML+SVG", "面向 Claude Code 快速生成"],
+    "relevance_score": 5
+  },
+  "tags": ["diagram", "claude", "template", "svg"],
+  "status": "reviewed"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "kb-2026-08-17-003",
+  "title": "ECC",
+  "source": "github-trending",
+  "source_id": "affaan-m/ECC",
+  "url": "https://github.com/affaan-m/ECC",
+  "summary": "面向编码 Agent 的 harness 性能优化系统，为 Claude Code、Codex、Opencode、Cursor 等工具提供 skills、instincts（行为规则）、memory、security 四类模块，主张 research-first 的开发方法。JavaScript 实现、MIT 许可，无需重写 Agent，即可通过配置层注入长期记忆与安全策略，提升 Agent 在 IDE/终端场景下的行为一致性与可控性。对工程团队价值在于降低多编码工具混合使用时的维护成本，本周（08-17）仍在高频迭代。",
+  "tags": ["agent-framework", "mcp", "claude-code", "developer-tools", "agent-optimization"],
+  "relevance_score": 0.89,
+  "collected_at": "2026-08-17T08:55:00Z",
+  "analyzed_at": "2026-08-17T09:30:00Z",
+  "organized_at": "2026-08-17T08:54:26Z",
+  "status": "published"
+}

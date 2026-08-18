@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-github-esengine-deepseek-reasonix",
+  "title": "esengine/DeepSeek-Reasonix",
+  "source": "github-trending",
+  "source_url": "https://github.com/esengine/DeepSeek-Reasonix",
+  "collected_at": "2026-08-14T12:00:00Z",
+  "summary": "DeepSeek 原生终端 AI coding agent，围绕 prefix-cache 稳定性设计，可长期后台运行不中断。",
+  "analysis": {
+    "tech_highlights": ["针对 prefix-cache 的稳定性设计", "可长期后台运行，减少中断", "为 DeepSeek 模型优化编码与推理效率"],
+    "relevance_score": 8
+  },
+  "tags": ["deepseek", "coding-agent", "terminal", "prefix-cache"],
+  "status": "reviewed"
+}

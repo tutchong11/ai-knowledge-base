@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-hn-connecticut-judge-ai-court-filings",
+  "title": "Connecticut judge says plaintiff hid messages for AI in court filings",
+  "source": "hacker-news",
+  "source_url": "https://www.reuters.com/legal/litigation/connecticut-judge-says-plaintiff-hid-messages-ai-court-filings-2026-08-13/",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "康涅狄格州法官裁定原告在法庭文件中隐瞒 AI 相关消息，涉及 AI 使用与司法披露。",
+  "analysis": {
+    "tech_highlights": ["AI 使用司法披露", "法律文件隐瞒裁决", "AI 合规监管案例"],
+    "relevance_score": 5
+  },
+  "tags": ["ai", "legal", "compliance", "regulation"],
+  "status": "reviewed"
+}

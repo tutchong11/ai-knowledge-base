@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-github-unsloth",
+  "title": "unslothai/unsloth",
+  "source": "github-trending",
+  "source_url": "https://github.com/unslothai/unsloth",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "本地运行与训练 LLM、扩散模型的工具，支持 Qwen、Kimi K3、MiniMax-H3、Gemma、DeepSeek-V4、FLUX 等模型的量化微调。",
+  "analysis": {
+    "tech_highlights": ["多模型量化微调支持", "本地运行与训练 LLM/扩散模型", "覆盖主流国产与开源模型"],
+    "relevance_score": 8
+  },
+  "tags": ["llm", "fine-tuning", "quantization", "training", "open-source"],
+  "status": "reviewed"
+}

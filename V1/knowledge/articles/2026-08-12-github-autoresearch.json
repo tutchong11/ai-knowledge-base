@@ -1,0 +1,18 @@
+{
+  "id": "2026-08-12-github-autoresearch",
+  "title": "karpathy/autoresearch: AI Agent 自动化单 GPU 训练研究",
+  "source": "github-trending",
+  "source_url": "https://github.com/karpathy/autoresearch",
+  "collected_at": "2026-08-12T00:00:00Z",
+  "summary": "Andrej Karpathy 的前瞻性实验——用 AI Agent 在单 GPU 上自动运行 nanochat 训练循环，探索 AI 自主驱动 AI 研究的可能性，极具启发性。",
+  "analysis": {
+    "tech_highlights": [
+      "AI Agent 自主驱动模型训练实验",
+      "单 GPU 高效自动化研究流水线",
+      "nanochat 轻量实验平台"
+    ],
+    "relevance_score": 8
+  },
+  "tags": ["ai-research", "automation", "training", "karpathy", "gpu"],
+  "status": "reviewed"
+}

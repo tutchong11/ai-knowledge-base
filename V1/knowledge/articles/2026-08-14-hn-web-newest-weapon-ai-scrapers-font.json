@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-hn-web-newest-weapon-ai-scrapers-font",
+  "title": "The web's newest weapon against AI scrapers is a font",
+  "source": "hacker-news",
+  "source_url": "https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "ArsTechnica 报道一种新字体可将网页内容对 AI 爬虫「加密」，成为反抓取的新手段。",
+  "analysis": {
+    "tech_highlights": ["字体对抗 AI 爬虫", "网页内容混淆", "反抓取新手段"],
+    "relevance_score": 5
+  },
+  "tags": ["ai-scraping", "font", "security", "web"],
+  "status": "reviewed"
+}

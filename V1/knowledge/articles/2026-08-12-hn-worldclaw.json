@@ -1,0 +1,18 @@
+{
+  "id": "2026-08-12-hn-worldclaw",
+  "title": "WorldClaw: Agentic 3D 开放世界大规模生成",
+  "source": "hacker-news",
+  "source_url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
+  "collected_at": "2026-08-12T00:00:00Z",
+  "summary": "腾讯混元团队发布 WorldClaw，利用 Agentic 方法实现大规模 3D 开放世界自动生成，展示 AI Agent 在游戏开发、数字孪生和仿真领域的巨大潜在价值。",
+  "analysis": {
+    "tech_highlights": [
+      "Agentic 驱动的 3D 场景自动生成",
+      "大规模开放世界构建能力",
+      "游戏/仿真/数字孪生跨领域应用"
+    ],
+    "relevance_score": 7
+  },
+  "tags": ["3d-generation", "game-development", "agentic-ai", "tencent", "simulation"],
+  "status": "reviewed"
+}

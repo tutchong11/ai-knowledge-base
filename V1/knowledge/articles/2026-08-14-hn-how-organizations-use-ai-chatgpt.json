@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-hn-how-organizations-use-ai-chatgpt",
+  "title": "How Organizations Use AI: Evidence from ChatGPT [pdf]",
+  "source": "hacker-news",
+  "source_url": "https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "OpenAI 发布的报告，基于 ChatGPT 数据研究组织如何使用 AI 的实证证据。",
+  "analysis": {
+    "tech_highlights": ["基于真实数据的实证研究", "组织 AI 使用模式分析", "ChatGPT 使用证据"],
+    "relevance_score": 5
+  },
+  "tags": ["ai", "research", "chatgpt", "enterprise"],
+  "status": "reviewed"
+}

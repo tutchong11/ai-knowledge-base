@@ -1,0 +1,18 @@
+{
+  "id": "2026-08-12-hn-compression-is-prediction",
+  "title": "Compression is prediction（压缩即预测）",
+  "source": "hacker-news",
+  "source_url": "https://ngrok.com/blog/compression-is-prediction",
+  "collected_at": "2026-08-12T00:00:00Z",
+  "summary": "ngrok 发布深度技术文章，从信息论角度论证压缩与预测的本质等价性，为理解 LLM 为何能"学习"与泛化提供了优雅的理论框架。",
+  "analysis": {
+    "tech_highlights": [
+      "信息论中压缩-预测等价性的深度论证",
+      "为 LLM 泛化能力提供底层理论解释",
+      "工程实践与理论结合的独特视角"
+    ],
+    "relevance_score": 6
+  },
+  "tags": ["information-theory", "compression", "machine-learning", "llm", "theory"],
+  "status": "reviewed"
+}

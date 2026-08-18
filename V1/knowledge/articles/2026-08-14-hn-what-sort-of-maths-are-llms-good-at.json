@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-hn-what-sort-of-maths-are-llms-good-at",
+  "title": "What sort of maths are LLMs good at?",
+  "source": "hacker-news",
+  "source_url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "数学家 Gowers 讨论 LLM 擅长哪些数学问题，探讨 LLM 的数学推理能力与边界。",
+  "analysis": {
+    "tech_highlights": ["LLM 数学能力边界分析", "菲尔兹奖得主观点", "数学推理能力探讨"],
+    "relevance_score": 5
+  },
+  "tags": ["llm", "math", "reasoning", "capability"],
+  "status": "reviewed"
+}

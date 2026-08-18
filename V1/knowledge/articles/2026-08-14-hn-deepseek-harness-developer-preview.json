@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-hn-deepseek-harness-developer-preview",
+  "title": "DeepSeek Harness developer preview",
+  "source": "hacker-news",
+  "source_url": "https://deepseek.com/harness/en/",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "DeepSeek 发布 Harness 开发者预览，提供开源评估与推理框架，配套 GitHub 仓库与快速入门文档。",
+  "analysis": {
+    "tech_highlights": ["开源评估与推理框架", "开发者预览版本", "配套文档与快速入门"],
+    "relevance_score": 7
+  },
+  "tags": ["deepseek", "inference", "evaluation", "framework", "open-source"],
+  "status": "reviewed"
+}

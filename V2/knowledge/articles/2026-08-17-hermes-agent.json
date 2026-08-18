@@ -1,0 +1,14 @@
+{
+  "id": "kb-2026-08-17-004",
+  "title": "hermes-agent",
+  "source": "github-trending",
+  "source_id": "NousResearch/hermes-agent",
+  "url": "https://github.com/NousResearch/hermes-agent",
+  "summary": "Nous Research 发布的\"与你一起成长\"的开源 AI Agent，Python 实现，兼容 Claude、ChatGPT、Codex 等主流模型接口。定位为个人化、可扩展的通用 Agent：通过持续对话与配置沉淀用户偏好，随使用时间增长提升个性化表现。对 Agent 开发者价值在于：可作为多模型适配层与长期记忆机制的参考实现，帮助理解个人 Agent 的成长型架构设计。MIT 许可、23.2 万星，本周仍在活跃更新。",
+  "tags": ["ai-agent", "python", "multi-model", "open-source", "nous-research"],
+  "relevance_score": 0.85,
+  "collected_at": "2026-08-17T08:55:00Z",
+  "analyzed_at": "2026-08-17T09:30:00Z",
+  "organized_at": "2026-08-17T08:54:26Z",
+  "status": "published"
+}

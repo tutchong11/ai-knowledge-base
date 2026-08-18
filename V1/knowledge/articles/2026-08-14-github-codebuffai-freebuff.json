@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-github-codebuffai-freebuff",
+  "title": "CodebuffAI/freebuff",
+  "source": "github-trending",
+  "source_url": "https://github.com/CodebuffAI/freebuff",
+  "collected_at": "2026-08-14T12:00:00Z",
+  "summary": "Codebuff 团队开源的免费 coding agent，提供无门槛 AI 编码体验。",
+  "analysis": {
+    "tech_highlights": ["免费开源 coding agent", "无门槛使用，降低采用成本", "Codebuff 团队技术背书"],
+    "relevance_score": 6
+  },
+  "tags": ["coding-agent", "free", "open-source"],
+  "status": "reviewed"
+}

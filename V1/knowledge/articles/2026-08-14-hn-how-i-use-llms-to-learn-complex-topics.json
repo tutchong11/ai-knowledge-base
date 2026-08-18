@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-hn-how-i-use-llms-to-learn-complex-topics",
+  "title": "How I use LLMs to learn complex topics",
+  "source": "hacker-news",
+  "source_url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "作者分享用 LLM 学习复杂技术主题的方法论，讨论个性化学习与苏格拉底式提问。",
+  "analysis": {
+    "tech_highlights": ["个性化学习方法论", "苏格拉底式提问技巧", "LLM 辅助复杂主题学习"],
+    "relevance_score": 6
+  },
+  "tags": ["llm", "learning", "methodology", "education"],
+  "status": "reviewed"
+}

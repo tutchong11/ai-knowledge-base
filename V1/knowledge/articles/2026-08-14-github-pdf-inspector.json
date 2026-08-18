@@ -1,0 +1,14 @@
+{
+  "id": "2026-08-14-github-pdf-inspector",
+  "title": "firecrawl/pdf-inspector",
+  "source": "github-trending",
+  "source_url": "https://github.com/firecrawl/pdf-inspector",
+  "collected_at": "2026-08-14T00:00:00Z",
+  "summary": "快速 PDF 检查、分类与文本提取的 Rust 库，智能识别扫描件与文本型 PDF，为 RAG/文档处理做智能路由。",
+  "analysis": {
+    "tech_highlights": ["Rust 高性能 PDF 处理", "扫描件/文本型智能识别", "为 RAG 文档处理智能路由"],
+    "relevance_score": 6
+  },
+  "tags": ["pdf", "rust", "rag", "document-processing"],
+  "status": "reviewed"
+}
