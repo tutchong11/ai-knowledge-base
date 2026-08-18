@@ -1,0 +1,19 @@
+{
+  "id": "github-20260818-009",
+  "title": "bytedance/deer-flow",
+  "source": "github",
+  "source_url": "https://github.com/bytedance/deer-flow",
+  "author": "bytedance",
+  "published_at": "2026-08-17T11:55:30Z",
+  "collected_at": "2026-08-18T06:39:51.892974+00:00",
+  "summary": "deer-flow 是一个开源的长时程超级智能体框架，通过沙箱、记忆、工具、技能、子代理和消息网关等组件，能够处理从数分钟到数小时的复杂任务，涵盖研究、编码和内容创作。该项目为构建可扩展的自主代理系统提供了完整的解决方案。",
+  "score": 8,
+  "tags": [
+    "agent",
+    "multi-agent",
+    "tool-use"
+  ],
+  "audience": "advanced",
+  "status": "review",
+  "updated_at": "2026-08-18T06:41:04.121205+00:00"
+}

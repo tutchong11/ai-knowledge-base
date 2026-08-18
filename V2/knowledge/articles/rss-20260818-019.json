@@ -1,0 +1,18 @@
+{
+  "id": "rss-20260818-019",
+  "title": "Position: Medical AI Neglects Real Treatment Outcomes",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2608.14598",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-08-18T06:39:57.116285+00:00",
+  "collected_at": "2026-08-18T06:39:57.116285+00:00",
+  "summary": "该论文指出当前医疗AI研究过度关注图像识别等中间指标，而忽视了真实的治疗结果，如患者生存率和生活质量。作者主张医疗AI应直接以临床结局为优化目标，并提出了实现这一转变的潜在路径。该文对医疗AI领域的发展方向具有重要的批判性和指导性价值。",
+  "score": 8,
+  "tags": [
+    "evaluation",
+    "reasoning"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-18T06:41:04.121643+00:00"
+}

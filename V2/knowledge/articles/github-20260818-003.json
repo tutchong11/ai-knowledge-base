@@ -1,0 +1,19 @@
+{
+  "id": "github-20260818-003",
+  "title": "langchain-ai/langchain",
+  "source": "github",
+  "source_url": "https://github.com/langchain-ai/langchain",
+  "author": "langchain-ai",
+  "published_at": "2026-08-18T01:51:37Z",
+  "collected_at": "2026-08-18T06:36:12.258931+00:00",
+  "summary": "LangChain 是一个用于构建和编排 AI 代理的工程平台，提供模块化工具和框架，支持从原型到生产的全生命周期管理。它简化了代理开发、工具集成和部署流程，是当前 AI 工程领域的重要基础设施。",
+  "score": 8,
+  "tags": [
+    "agent",
+    "tool-use",
+    "multi-agent"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-18T06:36:30.995160+00:00"
+}

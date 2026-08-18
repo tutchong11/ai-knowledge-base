@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260818-002",
+  "title": "Large Language Models Show Metacognitive Sensitivity in Medical Reasoning",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2608.14552",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-08-18T06:36:14.151071+00:00",
+  "collected_at": "2026-08-18T06:36:14.151071+00:00",
+  "summary": "该研究探讨了大型语言模型在医学推理任务中的元认知敏感性，即模型能否准确评估自身推理的可靠性。研究发现模型在医学问题上的置信度与答案正确性存在相关性，但敏感性受模型规模和提示方式影响。这一发现对提升LLM在医疗等高风险领域的可信应用具有重要价值。",
+  "score": 8,
+  "tags": [
+    "llm",
+    "reasoning",
+    "evaluation"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-18T06:36:30.995177+00:00"
+}

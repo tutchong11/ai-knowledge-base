@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260818-018",
+  "title": "Toward Safe LLM Agents: A Survey of Specification, Verification, and Enforcement",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2608.14590",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-08-18T06:39:57.116279+00:00",
+  "collected_at": "2026-08-18T06:39:57.116279+00:00",
+  "summary": "本文全面综述了安全 LLM 智能体的规范、验证与执行方法，涵盖形式化规范、运行时监控和策略执行等关键技术，为构建可靠智能体系统提供了系统性的框架与未来研究方向。",
+  "score": 8,
+  "tags": [
+    "agent",
+    "security",
+    "evaluation"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-18T06:41:04.121638+00:00"
+}
