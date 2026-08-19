@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260819-006",
+  "title": "SkillEffect: Checked Lowering for Memory-Bounded Agent Tools",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2608.17007",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-08-19T05:48:21.440392+00:00",
+  "collected_at": "2026-08-19T05:48:21.440392+00:00",
+  "summary": "本文提出了一种名为SkillEffect的方法，用于在内存受限的智能体工具中实现受控降级（Checked Lowering），以确保工具在资源有限时仍能可靠运行。该方法通过动态调整工具行为，平衡性能与内存使用，提升了智能体系统的鲁棒性和实用性。",
+  "score": 7,
+  "tags": [
+    "agent",
+    "tool-use",
+    "deployment"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-19T05:49:04.026115+00:00"
+}
