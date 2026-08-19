@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260819-008",
+  "title": "DiSCO: Defending text-to-image generation through distribution-guided contrastive prompt optimization",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2608.17067",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-08-19T05:48:21.440404+00:00",
+  "collected_at": "2026-08-19T05:48:21.440404+00:00",
+  "summary": "DiSCO 提出了一种基于分布引导的对比提示优化方法，用于防御文本到图像生成模型中的恶意提示攻击。通过优化提示以引导生成分布远离不安全内容，该方法在保持生成质量的同时增强了安全性，为生成式 AI 的安全防护提供了新思路。",
+  "score": 8,
+  "tags": [
+    "security",
+    "prompt-engineering",
+    "vision"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-19T05:49:04.026122+00:00"
+}

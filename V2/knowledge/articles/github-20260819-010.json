@@ -1,0 +1,18 @@
+{
+  "id": "github-20260819-010",
+  "title": "hiyouga/LlamaFactory",
+  "source": "github",
+  "source_url": "https://github.com/hiyouga/LlamaFactory",
+  "author": "hiyouga",
+  "published_at": "2026-08-18T11:49:47Z",
+  "collected_at": "2026-08-19T05:48:21.107837+00:00",
+  "summary": "LlamaFactory 是一个统一的高效微调框架，支持 100 多种大型语言模型和视觉语言模型，并在 ACL 2024 上发表。它提供了灵活且易用的接口，显著降低了 LLM 微调的门槛，提升了研究与应用效率。",
+  "score": 8,
+  "tags": [
+    "fine-tuning",
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-19T05:49:04.026083+00:00"
+}
