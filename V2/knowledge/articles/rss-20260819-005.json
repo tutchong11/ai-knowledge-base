@@ -1,18 +1,19 @@
 {
   "id": "rss-20260819-005",
-  "title": "The Problem Is the Problem: Towards Scalable Mathematical Discovery",
+  "title": "GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents",
   "source": "rss:arXiv cs.AI",
-  "source_url": "https://arxiv.org/abs/2608.16977",
+  "source_url": "https://arxiv.org/abs/2608.16890",
   "author": "arXiv cs.AI",
-  "published_at": "2026-08-19T05:48:21.440386+00:00",
-  "collected_at": "2026-08-19T05:48:21.440386+00:00",
-  "summary": "该论文提出了一种新的数学发现方法，强调问题本身的重要性，并探讨如何通过可扩展的框架来推动数学领域的自动发现。核心价值在于为AI驱动的数学研究提供了新的视角和工具，有望加速数学理论的创新。",
-  "score": 7,
+  "published_at": "2026-08-19T08:27:34.246230+00:00",
+  "collected_at": "2026-08-19T08:27:34.246230+00:00",
+  "summary": "该论文提出了一种基于过程DAG拓扑的GxP-Agent框架，用于在临床试验编程中可靠地使用LLM代理。通过将临床试验流程建模为有向无环图，该框架能够确保LLM代理遵循严格的监管要求，提高编程任务的准确性和可追溯性。该研究展示了LLM在受监管领域中的应用潜力，并为复杂工作流的自动化提供了新思路。",
+  "score": 8,
   "tags": [
-    "reasoning",
-    "agent"
+    "agent",
+    "llm",
+    "code-generation"
   ],
   "audience": "advanced",
   "status": "review",
-  "updated_at": "2026-08-19T05:49:04.026112+00:00"
+  "updated_at": "2026-08-19T08:28:05.013042+00:00"
 }

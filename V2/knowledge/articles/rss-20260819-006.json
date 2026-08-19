@@ -1,19 +1,19 @@
 {
   "id": "rss-20260819-006",
-  "title": "SkillEffect: Checked Lowering for Memory-Bounded Agent Tools",
+  "title": "Runtime Governance for Agentic AI: Action-Boundary Control with Trusted Provenance and Fail-Closed Execution",
   "source": "rss:arXiv cs.AI",
-  "source_url": "https://arxiv.org/abs/2608.17007",
+  "source_url": "https://arxiv.org/abs/2608.16891",
   "author": "arXiv cs.AI",
-  "published_at": "2026-08-19T05:48:21.440392+00:00",
-  "collected_at": "2026-08-19T05:48:21.440392+00:00",
-  "summary": "本文提出了一种名为SkillEffect的方法，用于在内存受限的智能体工具中实现受控降级（Checked Lowering），以确保工具在资源有限时仍能可靠运行。该方法通过动态调整工具行为，平衡性能与内存使用，提升了智能体系统的鲁棒性和实用性。",
-  "score": 7,
+  "published_at": "2026-08-19T08:27:34.246264+00:00",
+  "collected_at": "2026-08-19T08:27:34.246264+00:00",
+  "summary": "该论文提出了一种针对代理型AI的运行时治理框架，通过动作边界控制、可信来源验证和失败关闭执行机制，确保AI代理在复杂环境中的安全性和合规性。其核心价值在于为代理系统提供了可审计、可追溯的执行保障，填补了代理行为安全管控的空白。",
+  "score": 8,
   "tags": [
     "agent",
-    "tool-use",
+    "security",
     "deployment"
   ],
-  "audience": "intermediate",
+  "audience": "advanced",
   "status": "review",
-  "updated_at": "2026-08-19T05:49:04.026115+00:00"
+  "updated_at": "2026-08-19T08:28:05.013053+00:00"
 }
