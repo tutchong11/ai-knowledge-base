@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260818-008",
+  "title": "From Doyle to AGM: A Survey and an Implementation Roadmap for Belief Change",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2608.14567",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-08-18T06:39:57.116203+00:00",
+  "collected_at": "2026-08-18T06:39:57.116203+00:00",
+  "summary": "本文综述了信念修正领域从Doyle的早期工作到AGM公理框架的发展，并提供了实现路线图。它系统梳理了信念修正的核心理论、算法和实际应用，为研究者提供了从理论到实践的全面指导。该内容对于理解AI系统中的知识更新和推理机制具有重要价值。",
+  "score": 7,
+  "tags": [
+    "reasoning"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-18T06:41:04.121499+00:00"
+}
