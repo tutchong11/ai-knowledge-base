@@ -1,18 +1,19 @@
 {
   "id": "rss-20260819-007",
-  "title": "Memory Is Communication: The Frontier Between Remembering and Signaling",
+  "title": "The Price of Thinking: Reasoning Effort as a Model-Specific API Contract",
   "source": "rss:arXiv cs.AI",
-  "source_url": "https://arxiv.org/abs/2608.17053",
+  "source_url": "https://arxiv.org/abs/2608.16956",
   "author": "arXiv cs.AI",
-  "published_at": "2026-08-19T05:48:21.440398+00:00",
-  "collected_at": "2026-08-19T05:48:21.440398+00:00",
-  "summary": "该论文探讨了记忆与通信之间的界限，提出记忆本质上是一种通信形式，并分析了在AI系统中如何区分内部记忆存储与外部信号传递。这一视角为设计更高效的记忆机制和通信协议提供了理论基础，对AI系统架构设计具有参考价值。",
+  "published_at": "2026-08-19T08:27:34.246273+00:00",
+  "collected_at": "2026-08-19T08:27:34.246273+00:00",
+  "summary": "本文探讨了推理成本（reasoning effort）作为模型特定API契约的概念，指出不同模型在推理时消耗的计算资源差异显著，并分析了这种差异对API定价、用户选择和模型评估的影响。文章为AI服务提供商和开发者提供了关于如何设计和管理推理成本契约的实用见解。",
   "score": 7,
   "tags": [
-    "agent",
-    "reasoning"
+    "llm",
+    "reasoning",
+    "deployment"
   ],
   "audience": "intermediate",
   "status": "review",
-  "updated_at": "2026-08-19T05:49:04.026119+00:00"
+  "updated_at": "2026-08-19T08:28:05.013058+00:00"
 }

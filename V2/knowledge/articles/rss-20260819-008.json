@@ -1,19 +1,19 @@
 {
   "id": "rss-20260819-008",
-  "title": "DiSCO: Defending text-to-image generation through distribution-guided contrastive prompt optimization",
+  "title": "FedPref: Federated Preference Learning for Structured Radiology Report Extraction",
   "source": "rss:arXiv cs.AI",
-  "source_url": "https://arxiv.org/abs/2608.17067",
+  "source_url": "https://arxiv.org/abs/2608.16971",
   "author": "arXiv cs.AI",
-  "published_at": "2026-08-19T05:48:21.440404+00:00",
-  "collected_at": "2026-08-19T05:48:21.440404+00:00",
-  "summary": "DiSCO 提出了一种基于分布引导的对比提示优化方法，用于防御文本到图像生成模型中的恶意提示攻击。通过优化提示以引导生成分布远离不安全内容，该方法在保持生成质量的同时增强了安全性，为生成式 AI 的安全防护提供了新思路。",
-  "score": 8,
+  "published_at": "2026-08-19T08:27:34.246280+00:00",
+  "collected_at": "2026-08-19T08:27:34.246280+00:00",
+  "summary": "FedPref 提出了一种用于结构化放射学报告提取的联邦偏好学习方法，旨在在保护数据隐私的同时提升报告生成的准确性和一致性。该方法通过联邦学习框架整合多中心医疗数据，并利用偏好学习优化提取结果，具有重要的临床应用价值。",
+  "score": 7,
   "tags": [
-    "security",
-    "prompt-engineering",
+    "llm",
+    "fine-tuning",
     "vision"
   ],
   "audience": "intermediate",
   "status": "review",
-  "updated_at": "2026-08-19T05:49:04.026122+00:00"
+  "updated_at": "2026-08-19T08:28:05.013063+00:00"
 }
