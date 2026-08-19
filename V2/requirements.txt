@@ -1,0 +1,14 @@
+# AI 知识库 V2 – Python3.12 依赖（锁定本地实际版本）
+# 安装：pip install -r requirements.txt
+
+# HTTP请求（RSS拉取、LLM接口调用）
+httpx==0.26.0
+
+# .env环境变量加载
+python-dotenv==1.0.1
+
+# YAML配置解析 rss_sources.yaml
+PyYAML==6.0.1
+
+# OpenAI SDK（DeepSeek/Qwen兼容接口，model_client使用）
+openai==1.54.0
