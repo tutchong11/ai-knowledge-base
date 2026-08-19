@@ -75,6 +75,129 @@ def estimate_cost(model: str, usage: Usage) -> float:
     )
 
 
+# ── CostTracker 成本追踪（单位：元/百万 tokens） ──────────────────────────
+
+# 国产模型价格表（元/百万 tokens）
+RMB_PRICE_TABLE: dict[str, dict[str, float]] = {
+    "deepseek": {"input": 1.0, "output": 2.0},
+    "qwen": {"input": 4.0, "output": 12.0},
+    "openai": {"input": 150.0, "output": 600.0},
+}
+
+
+@dataclass
+class _ProviderUsage:
+    """单个提供商的累计 token 用量统计"""
+
+    calls: int = 0
+    prompt_tokens: int = 0
+    completion_tokens: int = 0
+
+    @property
+    def total_tokens(self) -> int:
+        return self.prompt_tokens + self.completion_tokens
+
+
+class CostTracker:
+    """
+    追踪 LLM 调用的 token 消耗与成本。
+
+    价格表单位为「元/百万 tokens」，覆盖 DeepSeek、Qwen 与 OpenAI。
+    """
+
+    def __init__(self) -> None:
+        self._stats: dict[str, _ProviderUsage] = {}
+
+    def record(self, usage: Usage, provider: str) -> None:
+        """
+        记录一次 API 调用的 token 用量。
+
+        Args:
+            usage: 单次调用的 token 用量
+            provider: 提供商名称（deepseek/qwen/openai）
+        """
+        name = provider.lower()
+        stat = self._stats.setdefault(name, _ProviderUsage())
+        stat.calls += 1
+        stat.prompt_tokens += usage.prompt_tokens
+        stat.completion_tokens += usage.completion_tokens
+
+    def estimated_cost(self, provider: str) -> float:
+        """
+        返回指定提供商的累计估算成本（元）。
+
+        Args:
+            provider: 提供商名称
+
+        Returns:
+            估算成本（元）
+
+        Raises:
+            ValueError: 提供商不在价格表内
+        """
+        name = provider.lower()
+        prices = RMB_PRICE_TABLE.get(name)
+        if prices is None:
+            raise ValueError(
+                f"未知提供商: {name}，支持: {', '.join(RMB_PRICE_TABLE)}"
+            )
+        stat = self._stats.get(name, _ProviderUsage())
+        return (
+            stat.prompt_tokens / 1_000_000 * prices["input"]
+            + stat.completion_tokens / 1_000_000 * prices["output"]
+        )
+
+    def report(self, provider: str | None = None) -> None:
+        """
+        打印成本报告。
+
+        Args:
+            provider: 指定提供商；为 None 时打印全部已记录的提供商
+        """
+        names = [provider.lower()] if provider else sorted(self._stats)
+        if not names:
+            print("CostTracker: 暂无调用记录")
+            return
+
+        print("\n" + "=" * 72)
+        print("CostTracker 成本报告")
+        print("=" * 72)
+        print(f"{'Provider':<12}{'Calls':>8}{'Input tokens':>15}"
+              f"{'Output tokens':>15}{'Total tokens':>13}{'Cost (RMB)':>14}")
+        print("-" * 72)
+
+        total_cost = 0.0
+        for name in names:
+            stat = self._stats.get(name)
+            if stat is None:
+                continue
+            prices = RMB_PRICE_TABLE.get(name)
+            if prices is None:
+                logger.warning("成本报告: 提供商 %s 不在价格表内", name)
+                cost = 0.0
+            else:
+                cost = (
+                    stat.prompt_tokens / 1_000_000 * prices["input"]
+                    + stat.completion_tokens / 1_000_000 * prices["output"]
+                )
+            total_cost += cost
+            print(f"{name:<12}{stat.calls:>8}{stat.prompt_tokens:>15}"
+                  f"{stat.completion_tokens:>15}{stat.total_tokens:>13}"
+                  f"{cost:>14.4f}")
+
+        print("-" * 72)
+        print(f"{'Total':<12}{'':>8}{'':>15}{'':>15}{'':>13}{total_cost:>14.4f}")
+        print("=" * 72)
+
+    def reset(self) -> None:
+        """清空所有统计数据。"""
+        self._stats.clear()
+
+
+# 全局追踪器，供 chat() 与流水线复用
+tracker = CostTracker()
+
+
 # ── Provider 抽象基类 ────────────────────────────────────────────────────
 
 class LLMProvider(ABC):
@@ -293,6 +416,7 @@ def chat(
     try:
         response = chat_with_retry(llm, messages, max_retries=max_retries)
         result = response.to_dict()
+        tracker.record(response.usage, provider_name)
         cost = estimate_cost(llm.model, response.usage)
         logger.info(
             "Token 用量: %d (prompt) + %d (completion) = %d, 估算成本: $%.6f",
