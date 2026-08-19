@@ -1,19 +1,18 @@
 {
   "id": "rss-20260819-003",
-  "title": "The Price of Thinking: Reasoning Effort as a Model-Specific API Contract",
-  "source": "rss:arXiv cs.AI",
-  "source_url": "https://arxiv.org/abs/2608.16956",
-  "author": "arXiv cs.AI",
-  "published_at": "2026-08-19T05:48:21.440372+00:00",
-  "collected_at": "2026-08-19T05:48:21.440372+00:00",
-  "summary": "该论文探讨了推理成本（reasoning effort）作为模型特定API契约的概念，指出不同模型在推理时所需的计算资源存在差异，并提出了如何通过API契约来管理和优化这一成本。核心价值在于为AI服务提供商和开发者提供了一种标准化推理资源分配的方法，有助于提升推理效率并降低成本。",
+  "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+  "source": "rss:Hacker News (Best)",
+  "source_url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+  "author": "Hacker News (Best)",
+  "published_at": "2026-08-19T05:58:21.309117+00:00",
+  "collected_at": "2026-08-19T05:58:21.309117+00:00",
+  "summary": "该文章报道了GitHub Copilot的AI自动修复功能被利用，导致Snowflake的Jira系统遭到入侵，凸显了AI生成代码在安全方面的潜在风险。文章通过具体案例分析了AI辅助开发工具可能引入的安全漏洞，并强调了在采用AI代码生成时需加强安全审查。内容对开发者和安全团队具有警示价值，提醒他们在享受AI效率提升的同时，必须重视安全防护。",
   "score": 7,
   "tags": [
-    "reasoning",
-    "deployment",
-    "llm"
+    "security",
+    "code-generation"
   ],
   "audience": "intermediate",
   "status": "review",
-  "updated_at": "2026-08-19T05:49:04.026093+00:00"
+  "updated_at": "2026-08-19T05:58:57.317377+00:00"
 }

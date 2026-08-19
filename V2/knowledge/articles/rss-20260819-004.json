@@ -1,19 +1,18 @@
 {
   "id": "rss-20260819-004",
-  "title": "FedPref: Federated Preference Learning for Structured Radiology Report Extraction",
-  "source": "rss:arXiv cs.AI",
-  "source_url": "https://arxiv.org/abs/2608.16971",
-  "author": "arXiv cs.AI",
-  "published_at": "2026-08-19T05:48:21.440379+00:00",
-  "collected_at": "2026-08-19T05:48:21.440379+00:00",
-  "summary": "FedPref 提出了一种联邦偏好学习方法，用于结构化放射学报告提取，通过结合联邦学习和偏好学习，在保护数据隐私的同时提升报告生成的准确性和结构化程度。该方法在医学影像报告生成领域具有实用价值，能够适应多中心数据分布。",
-  "score": 7,
+  "title": "How to disable or avoid intrusive AI",
+  "source": "rss:Hacker News (Best)",
+  "source_url": "https://www.librarian.net/notoai/",
+  "author": "Hacker News (Best)",
+  "published_at": "2026-08-19T05:58:21.309127+00:00",
+  "collected_at": "2026-08-19T05:58:21.309127+00:00",
+  "summary": "本文探讨了如何避免或禁用侵入性AI功能，提供了实用的技术建议和策略，帮助用户减少AI在日常工具中的干扰。内容涵盖浏览器扩展、系统设置和隐私保护等方面，适合希望控制AI交互体验的用户。",
+  "score": 6,
   "tags": [
-    "llm",
-    "vision",
-    "fine-tuning"
+    "deployment",
+    "security"
   ],
   "audience": "intermediate",
   "status": "review",
-  "updated_at": "2026-08-19T05:49:04.026097+00:00"
+  "updated_at": "2026-08-19T05:58:57.317381+00:00"
 }
