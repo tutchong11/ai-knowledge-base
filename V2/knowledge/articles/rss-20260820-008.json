@@ -1,19 +1,19 @@
 {
   "id": "rss-20260820-008",
-  "title": "FinSkillBench: Evaluating AI Agents and Domain Skills for Investment Management",
-  "source": "rss:arXiv cs.AI",
-  "source_url": "https://arxiv.org/abs/2608.18099",
-  "author": "arXiv cs.AI",
-  "published_at": "2026-08-20T08:19:23.330595+00:00",
-  "collected_at": "2026-08-20T08:19:23.330595+00:00",
-  "summary": "FinSkillBench 是一个用于评估 AI 代理在投资管理领域专业技能的新基准，它通过模拟真实投资任务来测试代理的决策能力和领域知识。该基准的提出填补了金融 AI 代理评估的空白，为投资管理场景下的 AI 系统提供了标准化评测方法。",
-  "score": 7,
+  "title": "Liquid Types as a behavioural sandbox for agents",
+  "source": "rss:Lobsters (AI/ML)",
+  "source_url": "https://wiki.alcidesfonseca.com/blog/aeonbox-logical-guardrails-for-agents/",
+  "author": "Lobsters (AI/ML)",
+  "published_at": "2026-08-20T09:21:53.760964+00:00",
+  "collected_at": "2026-08-20T09:21:53.760964+00:00",
+  "summary": "本文探讨了将液体类型（Liquid Types）作为智能体行为沙箱的概念，旨在通过类型系统约束智能体的行为，提高其安全性和可预测性。该技术为AI智能体的行为验证提供了新的形式化方法，具有较高的学术和工程价值。",
+  "score": 8,
   "tags": [
-    "evaluation",
     "agent",
-    "llm"
+    "security",
+    "reasoning"
   ],
-  "audience": "intermediate",
+  "audience": "advanced",
   "status": "review",
-  "updated_at": "2026-08-20T08:19:53.872742+00:00"
+  "updated_at": "2026-08-20T09:22:32.802047+00:00"
 }

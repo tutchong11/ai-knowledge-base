@@ -1,19 +1,18 @@
 {
   "id": "rss-20260820-010",
-  "title": "Emergence of Agentic AI: A Review on Evolution, Background, Working Principles, Applications, Adoption Factors, and Future Research Directions",
-  "source": "rss:arXiv cs.AI",
-  "source_url": "https://arxiv.org/abs/2608.18110",
-  "author": "arXiv cs.AI",
-  "published_at": "2026-08-20T08:19:23.330606+00:00",
-  "collected_at": "2026-08-20T08:19:23.330606+00:00",
-  "summary": "本文全面综述了代理型AI（Agentic AI）的演进历程、背景、工作原理、应用场景、采用因素及未来研究方向，为理解这一新兴领域提供了系统性框架。内容涵盖从基础概念到实际部署的关键要素，对研究者和实践者具有重要参考价值。",
-  "score": 8,
+  "title": "Retrofitting a build system into a compiler",
+  "source": "rss:Lobsters (AI/ML)",
+  "source_url": "https://www.dra27.uk/blog/platform/2025/09/25/building-with-effects.html",
+  "author": "Lobsters (AI/ML)",
+  "published_at": "2026-08-20T09:21:53.760976+00:00",
+  "collected_at": "2026-08-20T09:21:53.760976+00:00",
+  "summary": "本文探讨了将构建系统直接集成到编译器中的技术方案，旨在简化构建流程并提升编译效率。通过将构建逻辑内置于编译器，可以减少外部工具依赖，优化增量编译和依赖管理，为开发者提供更流畅的构建体验。",
+  "score": 7,
   "tags": [
-    "agent",
-    "multi-agent",
-    "reasoning"
+    "code-generation",
+    "deployment"
   ],
   "audience": "intermediate",
   "status": "review",
-  "updated_at": "2026-08-20T08:19:53.872747+00:00"
+  "updated_at": "2026-08-20T09:22:32.802054+00:00"
 }

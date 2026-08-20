@@ -1,18 +1,17 @@
 {
   "id": "rss-20260820-002",
-  "title": "Position: Profiling Game Worlds by Transition Complexity",
-  "source": "rss:arXiv cs.AI",
-  "source_url": "https://arxiv.org/abs/2608.18079",
-  "author": "arXiv cs.AI",
-  "published_at": "2026-08-20T08:19:23.330558+00:00",
-  "collected_at": "2026-08-20T08:19:23.330558+00:00",
-  "summary": "该论文提出了一种通过转换复杂度（transition complexity）来刻画游戏世界的新方法，为游戏AI研究提供了新的分析维度。该方法有助于理解游戏环境的动态特性，并可能对游戏测试、难度设计及AI代理训练产生积极影响。",
-  "score": 7,
+  "title": "Windows brings out the Rorschach test in everyone",
+  "source": "rss:Hacker News",
+  "source_url": "https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803",
+  "author": "Hacker News",
+  "published_at": "2026-08-20T09:21:53.002258+00:00",
+  "collected_at": "2026-08-20T09:21:53.002258+00:00",
+  "summary": "这篇文章探讨了Windows操作系统如何引发用户不同的反应和解读，类似于罗夏测试。它可能分析了用户对Windows的多样化体验和观点，但技术深度有限。对于技术社区，它可能提供了对用户行为和系统设计的洞察。",
+  "score": 5,
   "tags": [
-    "evaluation",
-    "reasoning"
+    "deployment"
   ],
-  "audience": "intermediate",
+  "audience": "beginner",
   "status": "review",
-  "updated_at": "2026-08-20T08:19:53.872703+00:00"
+  "updated_at": "2026-08-20T09:22:32.802025+00:00"
 }

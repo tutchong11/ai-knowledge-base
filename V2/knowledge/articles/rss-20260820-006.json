@@ -1,18 +1,18 @@
 {
   "id": "rss-20260820-006",
-  "title": "A Metamorphic Artificial Age Score Decision-Support Prototype for Flight-Log-Based Drone Propeller Health Monitoring",
-  "source": "rss:arXiv cs.AI",
-  "source_url": "https://arxiv.org/abs/2608.18088",
-  "author": "arXiv cs.AI",
-  "published_at": "2026-08-20T08:19:23.330584+00:00",
-  "collected_at": "2026-08-20T08:19:23.330584+00:00",
-  "summary": "该论文提出了一种基于飞行日志的无人机螺旋桨健康监测决策支持原型系统，采用变形人工智能时代评分方法，通过分析飞行数据来评估螺旋桨状态。该系统旨在提高无人机维护的效率和安全性，为操作人员提供可操作的决策支持。",
-  "score": 7,
+  "title": "AscendNPU-IR: MLIR for Ascend",
+  "source": "rss:Lobsters (AI/ML)",
+  "source_url": "https://gitcode.com/Ascend/AscendNPU-IR",
+  "author": "Lobsters (AI/ML)",
+  "published_at": "2026-08-20T09:21:53.760928+00:00",
+  "collected_at": "2026-08-20T09:21:53.760928+00:00",
+  "summary": "AscendNPU-IR 是一个基于 MLIR 的编译器项目，旨在为华为昇腾 NPU 提供统一的中间表示和优化能力。该项目通过 MLIR 框架将高级模型描述转换为高效的 NPU 指令，从而提升昇腾硬件的利用率和性能。其价值在于为昇腾生态提供了一套可扩展、可维护的编译基础设施，支持多种前端框架和自定义算子。",
+  "score": 8,
   "tags": [
-    "reasoning",
+    "code-generation",
     "deployment"
   ],
-  "audience": "intermediate",
+  "audience": "advanced",
   "status": "review",
-  "updated_at": "2026-08-20T08:19:53.872736+00:00"
+  "updated_at": "2026-08-20T09:22:32.802041+00:00"
 }
