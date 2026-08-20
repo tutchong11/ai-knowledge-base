@@ -15,6 +15,7 @@ pipeline/rss_reader.py — RSS 数据源采集模块
 
 from __future__ import annotations
 
+import html
 import logging
 import re
 from datetime import datetime, timezone
@@ -29,13 +30,75 @@ logger = logging.getLogger(__name__)
 # RSS 配置文件与 pipeline.py 共享同一份
 RSS_CONFIG = Path(__file__).parent / "rss_sources.yaml"
 
+# ── 解析用正则 ────────────────────────────────────────────────────────────
+
+# RSS 2.0 条目块
+ITEM_RE = re.compile(r"<item[^>]*>(.*?)</item>", re.DOTALL)
+# Atom 条目块
+ENTRY_RE = re.compile(r"<entry[^>]*>(.*?)</entry>", re.DOTALL)
+
+# 标题（兼容 CDATA 与 type 属性）
+TITLE_RE = re.compile(
+    r"<title[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>",
+    re.DOTALL,
+)
+# Atom 首选 rel="alternate" 的链接
+LINK_ALT_RE = re.compile(
+    r"""<link[^>]*?rel=["']alternate["'][^>]*?href=["']([^"']+)["']""",
+    re.DOTALL,
+)
+# Atom 任意 href 属性链接
+LINK_ATTR_RE = re.compile(r"""<link[^>]*?href=["']([^"']+)["']""", re.DOTALL)
+# RSS 2.0 文本形式链接
+LINK_TEXT_RE = re.compile(r"<link[^>]*>\s*(.*?)\s*</link>", re.DOTALL)
+
+
+def _strip_tags(text: str) -> str:
+    """反转义 HTML 实体并去除文本中的 HTML 标签。"""
+    text = html.unescape(text)
+    text = re.sub(r"<[^>]+>", "", text)
+    return text.strip()
+
+
+def _parse_feed_entries(feed_text: str) -> list[tuple[str, str]]:
+    """解析 RSS 2.0（<item>）与 Atom（<entry>）两种格式，返回 (title, link) 列表。"""
+    blocks = ITEM_RE.findall(feed_text)
+    blocks += ENTRY_RE.findall(feed_text)
+
+    entries: list[tuple[str, str]] = []
+    for block in blocks:
+        title_match = TITLE_RE.search(block)
+        if not title_match:
+            continue
+        title = _strip_tags(title_match.group(1))
+        if not title:
+            continue
+
+        link = ""
+        alt_match = LINK_ALT_RE.search(block)
+        attr_match = LINK_ATTR_RE.search(block)
+        text_match = LINK_TEXT_RE.search(block)
+        if alt_match:
+            link = alt_match.group(1)
+        elif attr_match:
+            link = attr_match.group(1)
+        elif text_match:
+            link = text_match.group(1)
+        link = _strip_tags(link)
+        if not link:
+            continue
+
+        entries.append((title, link))
+
+    return entries
+
 
 def collect_rss(limit: int = 10) -> list[dict[str, Any]]:
     """
     从配置的 RSS 源采集内容。
 
     Args:
-        limit: 最大采集数量（所有源合计）
+        limit: 每个源的最大采集数量
 
     Returns:
         原始数据列表，每条包含 id/title/source/source_url/... 字段
@@ -49,38 +112,27 @@ def collect_rss(limit: int = 10) -> list[dict[str, Any]]:
 
     sources = [s for s in config.get("sources", []) if s.get("enabled", True)]
     results: list[dict[str, Any]] = []
-    count = 0
+    global_count = 0
 
-    with httpx.Client(timeout=20.0) as client:
+    with httpx.Client(timeout=10.0) as client:
         for source in sources:
-            if count >= limit:
-                break
-
             try:
                 resp = client.get(source["url"])
                 resp.raise_for_status()
                 feed_text = resp.text
 
-                # 简易 RSS 解析：提取 <item> 中的 <title> 和 <link>
-                items = re.findall(
-                    r"<item[^>]*>.*?<title[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>.*?"
-                    r"<link[^>]*>(.*?)</link>.*?</item>",
-                    feed_text,
-                    re.DOTALL,
-                )
+                entries = _parse_feed_entries(feed_text)
 
-                for title, link in items:
-                    if count >= limit:
+                source_count = 0
+                for title, link in entries:
+                    if source_count >= limit:
                         break
-                    title = title.strip()
-                    link = link.strip()
-                    if not title or not link:
-                        continue
 
                     now = datetime.now(timezone.utc).isoformat()
-                    count += 1
+                    global_count += 1
+                    source_count += 1
                     results.append({
-                        "id": f"rss-{datetime.now().strftime('%Y%m%d')}-{count:03d}",
+                        "id": f"rss-{datetime.now().strftime('%Y%m%d')}-{global_count:03d}",
                         "title": title,
                         "source": f"rss:{source['name']}",
                         "source_url": link,
@@ -91,7 +143,7 @@ def collect_rss(limit: int = 10) -> list[dict[str, Any]]:
                         "collected_at": now,
                     })
 
-                logger.info("RSS [%s] 采集: %d 条", source["name"], len(items))
+                logger.info("RSS [%s] 采集: %d 条", source["name"], source_count)
 
             except httpx.HTTPError as e:
                 logger.warning("RSS 源 [%s] 获取失败: %s", source["name"], e)
@@ -112,7 +164,7 @@ if __name__ == "__main__":
     )
 
     parser = argparse.ArgumentParser(description="RSS 数据源采集调试入口")
-    parser.add_argument("--limit", type=int, default=10, help="最大采集条数")
+    parser.add_argument("--limit", type=int, default=10, help="每个源的最大采集条数")
     parser.add_argument("--output", type=str, default="", help="保存到 JSON 文件（可选）")
     args = parser.parse_args()
 

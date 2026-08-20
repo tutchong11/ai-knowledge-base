@@ -41,7 +41,7 @@ jobs:
         run: |
           python pipeline/pipeline.py \
             --sources github,rss \
-            --limit 10 \
+            --limit 5 \
             --verbose
 
       - name: Validate collected articles
