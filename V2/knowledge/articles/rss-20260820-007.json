@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260820-007",
+  "title": "Bongard Problems",
+  "source": "rss:Lobsters (AI/ML)",
+  "source_url": "https://matthodges.com/posts/2026-08-19-bongard-problems/",
+  "author": "Lobsters (AI/ML)",
+  "published_at": "2026-08-20T09:21:53.760955+00:00",
+  "collected_at": "2026-08-20T09:21:53.760955+00:00",
+  "summary": "Bongard Problems 是一类经典的视觉推理难题，要求从正负样本中归纳出抽象规则。该内容可能探讨如何将此类问题用于评估或提升 AI 模型的推理能力，对理解模型局限性有重要价值。",
+  "score": 7,
+  "tags": [
+    "reasoning",
+    "vision",
+    "evaluation"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-20T09:22:32.802044+00:00"
+}

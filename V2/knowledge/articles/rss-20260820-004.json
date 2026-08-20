@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260820-004",
+  "title": "Turns are Better than Radians (2022)",
+  "source": "rss:Hacker News",
+  "source_url": "https://www.computerenhance.com/p/turns-are-better-than-radians",
+  "author": "Hacker News",
+  "published_at": "2026-08-20T09:21:53.002276+00:00",
+  "collected_at": "2026-08-20T09:21:53.002276+00:00",
+  "summary": "这篇文章探讨了在计算机图形学和数学中使用整圈（turns）而非弧度（radians）作为角度单位的优势，提出了一种更直观、更易于教学的度量方式。通过简化角度表示和计算，它可能提高代码的可读性和减少错误，对图形编程和数学教育有实际价值。",
+  "score": 7,
+  "tags": [
+    "code-generation"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-20T09:22:32.802033+00:00"
+}

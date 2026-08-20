@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260820-002",
+  "title": "Windows brings out the Rorschach test in everyone",
+  "source": "rss:Hacker News",
+  "source_url": "https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803",
+  "author": "Hacker News",
+  "published_at": "2026-08-20T09:21:53.002258+00:00",
+  "collected_at": "2026-08-20T09:21:53.002258+00:00",
+  "summary": "这篇文章探讨了Windows操作系统如何引发用户不同的反应和解读，类似于罗夏测试。它可能分析了用户对Windows的多样化体验和观点，但技术深度有限。对于技术社区，它可能提供了对用户行为和系统设计的洞察。",
+  "score": 5,
+  "tags": [
+    "deployment"
+  ],
+  "audience": "beginner",
+  "status": "review",
+  "updated_at": "2026-08-20T09:22:32.802025+00:00"
+}

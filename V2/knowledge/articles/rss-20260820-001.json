@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260820-001",
+  "title": "Don't Paste the AI, please",
+  "source": "rss:Hacker News",
+  "source_url": "https://dontpastetheai.com/",
+  "author": "Hacker News",
+  "published_at": "2026-08-20T09:21:53.002228+00:00",
+  "collected_at": "2026-08-20T09:21:53.002228+00:00",
+  "summary": "这篇文章讨论了在AI应用中避免简单粘贴AI生成内容的重要性，强调需要结合具体上下文进行定制化调整。它提供了关于如何有效集成AI输出到实际工作流程中的实用建议，对于提升AI应用质量具有参考价值。",
+  "score": 7,
+  "tags": [
+    "llm",
+    "prompt-engineering",
+    "evaluation"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-20T09:22:32.802014+00:00"
+}

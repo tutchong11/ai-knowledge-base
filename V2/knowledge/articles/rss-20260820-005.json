@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260820-005",
+  "title": "Go 1.27",
+  "source": "rss:Hacker News",
+  "source_url": "https://go.dev/blog/go1.27",
+  "author": "Hacker News",
+  "published_at": "2026-08-20T09:21:53.002282+00:00",
+  "collected_at": "2026-08-20T09:21:53.002282+00:00",
+  "summary": "Go 1.27 是 Go 编程语言的下一个版本，预计将带来性能改进、工具链增强和语言特性更新。该版本延续了 Go 团队对稳定性、并发支持和开发者体验的持续优化，对后端开发和云原生应用具有重要价值。",
+  "score": 7,
+  "tags": [
+    "code-generation"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-20T09:22:32.802037+00:00"
+}
