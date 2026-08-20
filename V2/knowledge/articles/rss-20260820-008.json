@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260820-008",
+  "title": "FinSkillBench: Evaluating AI Agents and Domain Skills for Investment Management",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2608.18099",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-08-20T08:19:23.330595+00:00",
+  "collected_at": "2026-08-20T08:19:23.330595+00:00",
+  "summary": "FinSkillBench 是一个用于评估 AI 代理在投资管理领域专业技能的新基准，它通过模拟真实投资任务来测试代理的决策能力和领域知识。该基准的提出填补了金融 AI 代理评估的空白，为投资管理场景下的 AI 系统提供了标准化评测方法。",
+  "score": 7,
+  "tags": [
+    "evaluation",
+    "agent",
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-20T08:19:53.872742+00:00"
+}
