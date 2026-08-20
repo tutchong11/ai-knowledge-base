@@ -14,7 +14,7 @@ import logging
 import os
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -24,7 +24,7 @@ from dotenv import load_dotenv
 
 # 添加项目根目录到 path，以便导入 model_client 和 rss_reader
 sys.path.insert(0, str(Path(__file__).parent))
-from model_client import create_provider, chat_with_retry, LLMResponse, tracker
+from model_client import create_provider, chat_with_retry, estimate_cost
 from rss_reader import collect_rss  # noqa: F401 — 重导出供内部使用
 
 load_dotenv()
@@ -56,7 +56,7 @@ def collect_github(limit: int = 10) -> list[dict[str, Any]]:
         headers["Authorization"] = f"token {token}"
 
     # 搜索最近一周更新的 AI 相关仓库，按 star 排序
-    one_week_ago = (datetime.now(timezone.utc) - __import__('datetime').timedelta(days=7)).strftime("%Y-%m-%d")
+    one_week_ago = (datetime.now(timezone.utc) - timedelta(days=7)).strftime("%Y-%m-%d")
     query = f"ai agent llm stars:>100 pushed:>{one_week_ago}"
     url = "https://api.github.com/search/repositories"
     params = {
@@ -179,9 +179,9 @@ def step_analyze(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     print(f"🔍 Step 2: 分析（{len(items)} 条内容）")
     print(f"{'='*60}")
 
-    provider_name = os.getenv("LLM_PROVIDER", "deepseek")
     provider = create_provider()
     analyzed: list[dict[str, Any]] = []
+    total_cost = 0.0
 
     try:
         for i, item in enumerate(items):
@@ -204,7 +204,8 @@ def step_analyze(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
                     max_tokens=500,
                 )
 
-                tracker.record(response.usage, provider_name)
+                cost = estimate_cost(provider.model, response.usage)
+                total_cost += cost
 
                 # 解析 LLM 返回的 JSON
                 content = response.content.strip()
@@ -238,12 +239,59 @@ def step_analyze(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
         provider.close()
 
     print(f"  分析完成: {len(analyzed)} 条")
-    print(f"  估算总成本: ¥{tracker.estimated_cost(provider_name):.4f}")
+    print(f"  估算总成本: ${total_cost:.6f}")
 
     return analyzed
 
 
 # ── Step 3: 整理（Organize） ─────────────────────────────────────────────
+
+VALID_AUDIENCES = {"beginner", "intermediate", "advanced"}
+ALLOWED_TAGS = {
+    "agent", "rag", "mcp", "llm", "fine-tuning", "prompt-engineering",
+    "multi-agent", "tool-use", "evaluation", "deployment", "security",
+    "reasoning", "code-generation", "vision", "audio",
+}
+
+
+def validate_article(article: dict[str, Any]) -> list[str]:
+    """
+    校验标准化后文章字段的完整性与取值范围。
+
+    Args:
+        article: 标准化后的文章字典
+
+    Returns:
+        错误信息列表（空列表表示校验通过）
+    """
+    errors: list[str] = []
+
+    if not article.get("title"):
+        errors.append("title 为空")
+    if not article.get("source_url"):
+        errors.append("source_url 为空")
+    if not article.get("source"):
+        errors.append("source 为空")
+
+    score = article.get("score")
+    if not isinstance(score, int) or not 1 <= score <= 10:
+        errors.append(f"score 超出范围: {score}")
+
+    if article.get("audience", "") not in VALID_AUDIENCES:
+        errors.append(f"audience 无效: {article.get('audience')}")
+
+    tags = article.get("tags", [])
+    if not isinstance(tags, list) or not tags:
+        errors.append("tags 为空或非列表")
+    else:
+        normalized = [t for t in tags if isinstance(t, str) and t.strip()]
+        if not normalized:
+            errors.append("tags 无有效标签")
+        else:
+            article["tags"] = normalized
+
+    return errors
+
 
 def step_organize(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """
@@ -303,10 +351,26 @@ def step_organize(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
         }
         organized.append(article)
 
-    print(f"  去重: 移除 {dedup_count} 条重复")
-    print(f"  整理后: {len(organized)} 条")
+    # 校验：字段完整性 + 取值范围，剔除无效条目
+    validated: list[dict[str, Any]] = []
+    invalid_count = 0
+    for article in organized:
+        errors = validate_article(article)
+        if errors:
+            invalid_count += 1
+            logger.warning(
+                "校验未通过，已丢弃: %s — %s",
+                article.get("id", "unknown"),
+                "; ".join(errors),
+            )
+            continue
+        validated.append(article)
 
-    return organized
+    print(f"  去重: 移除 {dedup_count} 条重复")
+    print(f"  校验: 剔除 {invalid_count} 条无效条目")
+    print(f"  整理后: {len(validated)} 条")
+
+    return validated
 
 
 # ── Step 4: 保存（Save） ────────────────────────────────────────────────
@@ -415,9 +479,6 @@ def run_pipeline(
     print(f"# 采集: {stats['collected']} → 分析: {stats['analyzed']} "
           f"→ 整理: {stats['organized']} → 保存: {stats['saved']}")
     print(f"{'#'*60}\n")
-
-    # 输出本次运行的 LLM 调用成本报告
-    tracker.report()
 
     return stats
 
