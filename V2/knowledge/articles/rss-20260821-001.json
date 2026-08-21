@@ -1,0 +1,18 @@
+{
+  "id": "rss-20260821-001",
+  "title": "The August 17 outage, and the work ahead",
+  "source": "rss:Hacker News",
+  "source_url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+  "author": "Hacker News",
+  "published_at": "2026-08-21T01:17:36.657882+00:00",
+  "collected_at": "2026-08-21T01:17:36.657882+00:00",
+  "summary": "本文讨论了8月17日发生的服务中断事件，并展望了后续的改进工作。内容聚焦于故障复盘与系统稳定性提升，对运维和可靠性工程实践具有参考价值。",
+  "score": 7,
+  "tags": [
+    "deployment",
+    "security"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-21T01:18:33.833335+00:00"
+}

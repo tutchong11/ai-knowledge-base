@@ -1,0 +1,18 @@
+{
+  "id": "rss-20260821-009",
+  "title": "Retrofitting a build system into a compiler",
+  "source": "rss:Lobsters (AI/ML)",
+  "source_url": "https://www.dra27.uk/blog/platform/2025/09/25/building-with-effects.html",
+  "author": "Lobsters (AI/ML)",
+  "published_at": "2026-08-21T01:17:36.808399+00:00",
+  "collected_at": "2026-08-21T01:17:36.808399+00:00",
+  "summary": "本文探讨了将构建系统直接集成到编译器中的方法，旨在优化编译流程并减少构建配置的复杂性。通过将构建逻辑嵌入编译器，可以提高构建效率并简化开发工具链。该内容对编译器设计和构建系统优化具有参考价值。",
+  "score": 7,
+  "tags": [
+    "code-generation",
+    "deployment"
+  ],
+  "audience": "advanced",
+  "status": "review",
+  "updated_at": "2026-08-21T01:18:33.833374+00:00"
+}

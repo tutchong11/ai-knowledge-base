@@ -1,0 +1,18 @@
+{
+  "id": "rss-20260821-018",
+  "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/multi-vector-encoder",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-08-21T01:17:37.209531+00:00",
+  "collected_at": "2026-08-21T01:17:37.209531+00:00",
+  "summary": "本文介绍了多向量（晚期交互）嵌入模型在句子转换器中的应用，通过对比查询和文档的token级嵌入来提升检索精度。该技术为RAG系统提供了更细粒度的语义匹配能力，是信息检索领域的重要进展。",
+  "score": 8,
+  "tags": [
+    "rag",
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-21T01:18:33.833407+00:00"
+}

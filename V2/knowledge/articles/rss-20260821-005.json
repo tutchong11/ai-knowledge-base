@@ -1,0 +1,18 @@
+{
+  "id": "rss-20260821-005",
+  "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
+  "source": "rss:Hacker News",
+  "source_url": "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
+  "author": "Hacker News",
+  "published_at": "2026-08-21T01:17:36.657933+00:00",
+  "collected_at": "2026-08-21T01:17:36.657933+00:00",
+  "summary": "本文对比了Aaron Swartz因爬取学术论文被起诉，而Meta等大型科技公司大规模爬取数据却未受同等追责的现象，揭示了法律执行中的双重标准。文章引发对数据获取伦理和监管公平性的讨论，对AI数据合规领域具有参考价值。",
+  "score": 6,
+  "tags": [
+    "security",
+    "deployment"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-21T01:18:33.833360+00:00"
+}

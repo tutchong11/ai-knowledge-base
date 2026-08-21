@@ -1,0 +1,18 @@
+{
+  "id": "rss-20260821-019",
+  "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-08-21T01:17:37.209539+00:00",
+  "collected_at": "2026-08-21T01:17:37.209539+00:00",
+  "summary": "该文章探讨了通过调整任务执行顺序而非改变集群配置，显著提升资源利用率（提升33个百分点）的方法，强调了调度策略优化在AI基础设施中的重要性。内容提供了实用的技术洞察，适合关注部署与性能优化的读者。",
+  "score": 7,
+  "tags": [
+    "deployment",
+    "evaluation"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-21T01:18:33.833411+00:00"
+}

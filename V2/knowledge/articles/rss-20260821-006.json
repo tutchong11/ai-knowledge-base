@@ -1,0 +1,18 @@
+{
+  "id": "rss-20260821-006",
+  "title": "AscendNPU-IR: MLIR for Ascend",
+  "source": "rss:Lobsters (AI/ML)",
+  "source_url": "https://gitcode.com/Ascend/AscendNPU-IR",
+  "author": "Lobsters (AI/ML)",
+  "published_at": "2026-08-21T01:17:36.808361+00:00",
+  "collected_at": "2026-08-21T01:17:36.808361+00:00",
+  "summary": "AscendNPU-IR 是一个基于 MLIR 的编译器项目，旨在为华为昇腾 NPU 提供统一的中间表示和优化能力。该项目通过 MLIR 框架将高级模型描述映射到昇腾硬件，提升了 AI 模型在昇腾平台上的部署效率和性能。对于关注国产 AI 芯片和编译器生态的开发者，这是一个重要的技术参考。",
+  "score": 7,
+  "tags": [
+    "deployment",
+    "code-generation"
+  ],
+  "audience": "advanced",
+  "status": "review",
+  "updated_at": "2026-08-21T01:18:33.833364+00:00"
+}

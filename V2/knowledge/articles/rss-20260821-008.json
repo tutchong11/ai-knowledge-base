@@ -1,0 +1,18 @@
+{
+  "id": "rss-20260821-008",
+  "title": "But what is cross-entropy? | Compression is Intelligence Part 2 - YouTube",
+  "source": "rss:Lobsters (AI/ML)",
+  "source_url": "https://www.youtube.com/watch?v=GlYgs6v2YfU",
+  "author": "Lobsters (AI/ML)",
+  "published_at": "2026-08-21T01:17:36.808393+00:00",
+  "collected_at": "2026-08-21T01:17:36.808393+00:00",
+  "summary": "该视频深入浅出地解释了交叉熵（cross-entropy）的概念，并将其与压缩和智能联系起来，是“压缩即智能”系列的第二部分。内容通过直观的讲解和示例，帮助观众理解交叉熵在信息论和机器学习中的核心作用，以及它如何作为损失函数驱动模型学习。对于希望夯实理论基础并理解AI底层原理的观众，这是一份高质量的学习资源。",
+  "score": 8,
+  "tags": [
+    "llm",
+    "reasoning"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-21T01:18:33.833371+00:00"
+}

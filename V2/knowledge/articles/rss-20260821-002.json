@@ -1,0 +1,18 @@
+{
+  "id": "rss-20260821-002",
+  "title": "Copyright does not protect AI-generated content in EU",
+  "source": "rss:Hacker News",
+  "source_url": "https://mathstodon.xyz/@maxpool/117128107757895678",
+  "author": "Hacker News",
+  "published_at": "2026-08-21T01:17:36.657910+00:00",
+  "collected_at": "2026-08-21T01:17:36.657910+00:00",
+  "summary": "欧盟法律裁定，AI生成的内容不受版权保护，这对依赖AI创作的企业和个人具有重大法律影响。该裁决明确了AI生成物的法律地位，可能促使开发者重新评估AI工具的使用策略。",
+  "score": 7,
+  "tags": [
+    "llm",
+    "deployment"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-21T01:18:33.833347+00:00"
+}
