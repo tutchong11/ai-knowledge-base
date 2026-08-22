@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260822-002",
+  "title": "Felony Bench",
+  "source": "rss:Hacker News",
+  "source_url": "https://www.felonybench.com/",
+  "author": "Hacker News",
+  "published_at": "2026-08-22T01:13:25.074937+00:00",
+  "collected_at": "2026-08-22T01:13:25.074937+00:00",
+  "summary": "Felony Bench 是一个面向 AI 技术的基准测试或评估框架，旨在衡量模型在特定任务上的表现。该内容可能提供了新的评估方法或数据集，对 AI 社区具有参考价值。",
+  "score": 7,
+  "tags": [
+    "evaluation"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-22T01:14:38.725155+00:00"
+}

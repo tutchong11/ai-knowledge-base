@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260822-005",
+  "title": "Kagi added a setting for removing paywalled links from search results",
+  "source": "rss:Hacker News",
+  "source_url": "https://kagi.com/changelog#11296",
+  "author": "Hacker News",
+  "published_at": "2026-08-22T01:13:25.074960+00:00",
+  "collected_at": "2026-08-22T01:13:25.074960+00:00",
+  "summary": "Kagi 搜索引擎新增了一项设置，允许用户在搜索结果中过滤掉付费墙链接，从而提升搜索体验。这一功能对经常遇到付费内容限制的用户尤为实用，体现了搜索引擎对用户需求细节的关注。",
+  "score": 6,
+  "tags": [
+    "tool-use"
+  ],
+  "audience": "beginner",
+  "status": "review",
+  "updated_at": "2026-08-22T01:14:38.725168+00:00"
+}

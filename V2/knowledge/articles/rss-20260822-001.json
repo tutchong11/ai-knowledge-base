@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260822-001",
+  "title": "Kobo can run apps now",
+  "source": "rss:Hacker News",
+  "source_url": "https://bandarlabs.github.io/Cobalt/",
+  "author": "Hacker News",
+  "published_at": "2026-08-22T01:13:25.074910+00:00",
+  "collected_at": "2026-08-22T01:13:25.074910+00:00",
+  "summary": "Kobo 电子阅读器现在可以运行应用程序，这标志着其平台开放性的重大提升，为用户带来了更多功能和定制可能性。该消息对开发者社区具有吸引力，可能开启新的应用生态。",
+  "score": 7,
+  "tags": [
+    "deployment"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-22T01:14:38.725144+00:00"
+}

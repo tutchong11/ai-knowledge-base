@@ -1,0 +1,18 @@
+{
+  "id": "rss-20260822-016",
+  "title": "Measuring benchmark optimization in speech recognition",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/asr-benchmark-optimization",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-08-22T01:13:26.006760+00:00",
+  "collected_at": "2026-08-22T01:13:26.006760+00:00",
+  "summary": "该文章探讨了语音识别领域中基准测试优化的现象，分析了模型在标准数据集上表现优异但实际应用中可能存在的过拟合问题，并提出了更稳健的评估方法。其核心价值在于提醒研究者和工程师关注基准测试的局限性，推动更真实的性能评估。",
+  "score": 7,
+  "tags": [
+    "evaluation",
+    "audio"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-22T01:14:38.725172+00:00"
+}
