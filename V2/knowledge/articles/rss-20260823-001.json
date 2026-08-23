@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260823-001",
+  "title": "NanoGPT Speedrun Frontier",
+  "source": "rss:Hacker News",
+  "source_url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
+  "author": "Hacker News",
+  "published_at": "2026-08-23T01:19:55.512740+00:00",
+  "collected_at": "2026-08-23T01:19:55.512740+00:00",
+  "summary": "NanoGPT Speedrun Frontier 是一个专注于优化 NanoGPT 训练速度的项目，旨在通过极致的工程优化和算法调整，大幅缩短 GPT 模型的训练时间。该项目提供了高效的技术方案和基准，对于研究者和工程师在资源受限环境下快速训练小型 GPT 模型具有重要参考价值。",
+  "score": 8,
+  "tags": [
+    "llm",
+    "fine-tuning",
+    "deployment"
+  ],
+  "audience": "advanced",
+  "status": "review",
+  "updated_at": "2026-08-23T01:20:28.902493+00:00"
+}

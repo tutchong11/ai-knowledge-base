@@ -1,0 +1,18 @@
+{
+  "id": "rss-20260823-003",
+  "title": "Why your local LLM feels dumber than it is",
+  "source": "rss:Hacker News",
+  "source_url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+  "author": "Hacker News",
+  "published_at": "2026-08-23T01:19:55.512817+00:00",
+  "collected_at": "2026-08-23T01:19:55.512817+00:00",
+  "summary": "本文探讨了本地LLM在实际使用中表现不如预期的原因，指出问题可能不在于模型本身，而在于使用方式、上下文管理或配置不当。文章提供了实用的优化建议，帮助用户充分发挥本地模型的潜力，是提升本地LLM应用效果的有价值参考。",
+  "score": 7,
+  "tags": [
+    "llm",
+    "deployment"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-23T01:20:28.902509+00:00"
+}

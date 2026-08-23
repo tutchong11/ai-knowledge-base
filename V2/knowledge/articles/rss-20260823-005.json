@@ -1,0 +1,18 @@
+{
+  "id": "rss-20260823-005",
+  "title": "Hister – A private, full content search index that you control",
+  "source": "rss:Hacker News",
+  "source_url": "https://hister.org/",
+  "author": "Hacker News",
+  "published_at": "2026-08-23T01:19:55.512838+00:00",
+  "collected_at": "2026-08-23T01:19:55.512838+00:00",
+  "summary": "Hister 是一个由用户完全控制的私有全文搜索索引工具，旨在提供安全、自主的搜索体验。它允许用户索引和管理自己的内容，确保数据隐私和主权，适合需要高度控制搜索数据的场景。",
+  "score": 7,
+  "tags": [
+    "deployment",
+    "security"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-23T01:20:28.902517+00:00"
+}

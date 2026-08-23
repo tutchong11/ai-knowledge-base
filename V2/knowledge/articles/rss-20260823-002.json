@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260823-002",
+  "title": "Scrap",
+  "source": "rss:Hacker News",
+  "source_url": "https://twitter.com/moxie/status/2091218652133732491",
+  "author": "Hacker News",
+  "published_at": "2026-08-23T01:19:55.512800+00:00",
+  "collected_at": "2026-08-23T01:19:55.512800+00:00",
+  "summary": "Scrap 是一个来自 Hacker News 的技术分享，内容可能涉及数据抓取或代码清理，但描述信息不足，难以准确评估其核心价值。建议查看原文以获取更详细的技术细节。",
+  "score": 5,
+  "tags": [
+    "tool-use"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-23T01:20:28.902504+00:00"
+}

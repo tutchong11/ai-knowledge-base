@@ -1,0 +1,18 @@
+{
+  "id": "rss-20260823-006",
+  "title": "Robot comment classifier",
+  "source": "rss:Lobsters (AI/ML)",
+  "source_url": "https://entropicthoughts.com/ai-comment-classifier",
+  "author": "Lobsters (AI/ML)",
+  "published_at": "2026-08-23T01:19:56.379371+00:00",
+  "collected_at": "2026-08-23T01:19:56.379371+00:00",
+  "summary": "该内容介绍了一个机器人评论分类器，可能涉及使用机器学习或自然语言处理技术对评论进行自动分类。其核心价值在于提供了一种自动化处理用户评论的方法，有助于内容审核或舆情分析。",
+  "score": 6,
+  "tags": [
+    "llm",
+    "evaluation"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-23T01:20:28.902521+00:00"
+}
