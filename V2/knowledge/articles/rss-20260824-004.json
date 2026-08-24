@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260824-004",
+  "title": "Google Workspace thinks my domain is an email provider (2025)",
+  "source": "rss:Hacker News",
+  "source_url": "https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/",
+  "author": "Hacker News",
+  "published_at": "2026-08-24T01:17:41.514213+00:00",
+  "collected_at": "2026-08-24T01:17:41.514213+00:00",
+  "summary": "该帖子讨论了Google Workspace在2025年将用户域名误识别为电子邮件提供商的问题，可能涉及域名配置或服务策略的变更。内容对使用Google Workspace的企业或个人具有参考价值，但技术深度有限。",
+  "score": 5,
+  "tags": [
+    "deployment"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-08-24T01:18:16.795859+00:00"
+}
